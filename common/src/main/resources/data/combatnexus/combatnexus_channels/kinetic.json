@@ -1,0 +1,9 @@
+{
+  "channel": "combatnexus:kinetic",
+  "trigger_tags": [
+    "combatnexus:is_kinetic"
+  ],
+  "resistance_attribute": "combatnexus:resistance_kinetic",
+  "affected_by_armor": true,
+  "priority": 60
+}

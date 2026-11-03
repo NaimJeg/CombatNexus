@@ -1,0 +1,9 @@
+{
+  "channel": "combatnexus:physical",
+  "trigger_tags": [
+    "combatnexus:is_physical"
+  ],
+  "resistance_attribute": "combatnexus:resistance_physical",
+  "affected_by_armor": true,
+  "priority": 0
+}

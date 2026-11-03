@@ -1,0 +1,9 @@
+{
+  "channel": "combatnexus:poison",
+  "trigger_tags": [
+    "combatnexus:is_poison"
+  ],
+  "resistance_attribute": "combatnexus:resistance_poison",
+  "affected_by_armor": false,
+  "priority": 90
+}

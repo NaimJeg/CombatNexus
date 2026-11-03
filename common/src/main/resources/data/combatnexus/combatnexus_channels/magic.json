@@ -1,0 +1,10 @@
+{
+  "channel": "combatnexus:magic",
+  "trigger_tags": [
+    "combatnexus:is_magic",
+    "combatnexus:is_spell"
+  ],
+  "resistance_attribute": "combatnexus:resistance_magic",
+  "affected_by_armor": false,
+  "priority": 80
+}

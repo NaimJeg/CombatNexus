@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#combatnexus:is_spear_stab",
+    "#combatnexus:is_spear_charge",
+    {
+      "id": "minecraft:spear",
+      "required": false
+    },
+    {
+      "id": "combatnexus:spear_attack",
+      "required": false
+    }
+  ]
+}

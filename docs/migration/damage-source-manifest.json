@@ -1,0 +1,2894 @@
+[
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/ChannelValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/ChannelValue.java",
+    "sha256": "440b6c30b1cb130ee9f691dc556997c6c9311d1367727e6d867115a442d58813",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/DamageNexusRulePhrases.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/DamageModuleRulePhrases.java",
+    "sha256": "e3e00fc0f1b356724855d69cb98d3694b7812c7fbac244c852c23c80b3428d2b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/EffectValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/EffectValue.java",
+    "sha256": "e89d74c0fa7094f1b0ab7db7fd3f7d92385aea178daf90bd64cb01fa3bbaf85e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/EntityRoleValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/EntityRoleValue.java",
+    "sha256": "a21e75aeebf65cd9923a57163290333dfbc141e8a03f190a33ab721d80fae140",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/EntityTypeValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/EntityTypeValue.java",
+    "sha256": "f81b281e2682e3dfc3bb4abe40c64699e4a5e9fa31c91d079d7c87acaf1910ca",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/IdentifierValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/IdentifierValue.java",
+    "sha256": "ff8c95c020ee2dd66ce65b2e238044da05f4d7ca1952f3a43d5c745488d6de93",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/MobCategoryValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/MobCategoryValue.java",
+    "sha256": "fc16908e062373b59353e64559aa804ee2264a4760639686eaddbaedaf4ae8cc",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/NestedPhraseValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/NestedPhraseValue.java",
+    "sha256": "ad960a68abb0f3662dee45767521f3f75681c5e9750631190959568779edab47",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/NumberValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/NumberValue.java",
+    "sha256": "51d382efdead5420a7b24e0f79f80910c842cdfbf3b410af6fe135f99b50933b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/PercentValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/PercentValue.java",
+    "sha256": "cf0f86cb8e8898c350fc070817056a147764e875162ec108d4680520408e0210",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/PhraseArgument.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/PhraseArgument.java",
+    "sha256": "858711cc69877330499f53608c169df257effaa342351122694bb1ba69bff682",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/PhraseArguments.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/PhraseArguments.java",
+    "sha256": "fe76bcb6893fe95b5ac4ad2a672e92c5c35816455a5dbdf2f12bd0578fb0e48e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/PhraseForm.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/PhraseForm.java",
+    "sha256": "64a149bd9ee7434250e9ae9a14ad41341f9f421139e8574585448e481e49528c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/PhraseSlot.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/PhraseSlot.java",
+    "sha256": "25cbdcc5a6c18d6c42c2ad5ad05022a712da28fcc1e6dd55d433623ab3124523",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/PhraseValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/PhraseValue.java",
+    "sha256": "7d9f543927cee100060a8a2b1c05d94859dbbc7eb737b1c1f077332c8beebb2e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/PhraseVariant.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/PhraseVariant.java",
+    "sha256": "1743a6afb922ff1f777559d8768b307d1b3cebc69ec032d3bc5aee613fd61852",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/RegisterRulePhrasesEvent.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/RegisterRulePhrasesEvent.java",
+    "sha256": "3065982de29cb076200b2d38ca13308a407eb7fc296e6f58308aef60989967bb",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/RequestKindValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/RequestKindValue.java",
+    "sha256": "e75252f0ea205d162564bb123c45bd448140aefc5762558618f10cf3ce027914",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/RulePhrase.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/RulePhrase.java",
+    "sha256": "23ce76374a1ffa33ac291cfd8cea10bfeae686a255d03d2a6cb5f50e57ff7347",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/RulePhraseFactory.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/RulePhraseFactory.java",
+    "sha256": "e8e41d25c72ddfb69e465468d8f35e9c76f608e556e99f39a4afbf93c5d6f127",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/RulePhraseProvider.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/RulePhraseProvider.java",
+    "sha256": "2a288bee11c317b7ca9800a57b986b05c29a73282215bfd4510419fd8a782714",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/RulePhraseRegistry.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/RulePhraseRegistry.java",
+    "sha256": "d3f87298061c947c45e362488b4785bbc128ca257da27ac44bf76493612217a8",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/RulePhraseSchema.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/RulePhraseSchema.java",
+    "sha256": "178f8ae1d8abf7a2bf006e7005bcfbbe58ee785cebf5b459042b235f3c92b5e0",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/RulePhraseType.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/RulePhraseType.java",
+    "sha256": "830c432c5207572febba322ebcebb22a98ca7c3411fc0146e7300a4334973f81",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/client/phrase/TagValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/client/phrase/TagValue.java",
+    "sha256": "94cd1d5f491b0f0e978e2157c404df78c1c3ff934af307f341708f9d87b56fcd",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/context/DamageContextView.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/context/DamageContextView.java",
+    "sha256": "71e843cbbbc5aba8ff58ecd5eb26e1449719393060f2ce2a3984a2ea387f534a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/context/DamageMutationContext.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/context/DamageMutationContext.java",
+    "sha256": "bca0e152399323aac9cad8d24242e663241e8db1fcfa3e5da298965e771ff972",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/context/DamageMutationResult.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/context/DamageMutationResult.java",
+    "sha256": "ff75e825a10ead95a29ea7560b35d87aec722eb9e7895baa2d143ec95ceb5551",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/context/DamageRuleContext.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/context/DamageRuleContext.java",
+    "sha256": "14d26174b7d34562cc4c5ace8a6e71b2e842bb677ebf29ba5c5559c0227264eb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/critical/CriticalDecision.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/critical/CriticalDecision.java",
+    "sha256": "35fd1047fef81a536fc06552b0e62bf63ff69eac7425b4cb3591485e14132b77",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/critical/CriticalDecisionCollector.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/critical/CriticalDecisionCollector.java",
+    "sha256": "cf8e80b6c558f424fd1351605e93b457e5d3d0452cc3a0ae5049cf1db3790197",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/critical/CriticalDecisionContribution.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/critical/CriticalDecisionContribution.java",
+    "sha256": "d3839088b3794f292c716ff7869665c1ada5ef0b1d93855cdb7a3db8d79b8818",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/critical/CriticalDecisionContributionResult.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/critical/CriticalDecisionContributionResult.java",
+    "sha256": "3354cf44e0431e8c038836d04205eaa3199973f7ef956b824f79ed23b61815f3",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/critical/CriticalDecisionOutcome.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/critical/CriticalDecisionOutcome.java",
+    "sha256": "a444c9fc549073eaac337b40ccb8c216b5156e849b73a2d7a1d78e02fe510615",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/critical/CriticalDecisionProvider.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/critical/CriticalDecisionProvider.java",
+    "sha256": "f549ebef878076ba2052b2fb4388dbebe12d659eee7ca91870cb4a5154712d73",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/critical/CriticalDecisionSnapshot.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/critical/CriticalDecisionSnapshot.java",
+    "sha256": "50bef3f2db5b29a7327bd8d980054b63f87a40a57950392a062d95a2e5ee60bd",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageAttribution.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageAttribution.java",
+    "sha256": "2cca8eae984e88c0be281e3c90a9a308c57c3003c2307d8ce14791801c3df36e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageAttributionEntryPoint.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageAttributionEntryPoint.java",
+    "sha256": "589f55ccd769b92bed633bae00fc6c3fbc094a7ccb2adf32c436de35ff2be953",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageAttributionProvenance.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageAttributionProvenance.java",
+    "sha256": "6b756be96d755a58ea748214096c9c683fe2154d7640f68d8ce56cde97d2f35a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageAttributionQuery.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageAttributionQuery.java",
+    "sha256": "0ac5b948c45da072d95d7fd7e0b3b882d2dd477db47c55e0ef8cd12e3631e4db",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageAttributionResolution.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageAttributionResolution.java",
+    "sha256": "826abe17b615cf7ba5d75b7182dfd61fd36fc3d595cbcd4659b9a2356a348f3b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageAttributionResolver.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageAttributionResolver.java",
+    "sha256": "64e4197d5210555a32d88c29e432a4f3fbfc8bde3e248e282b5a7cc822dba138",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageAttributionSource.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageAttributionSource.java",
+    "sha256": "6404fca4d76b4447bb6325f61ba7c573d5ec89cbfa216d816cecd1035c132704",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageFailure.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageFailure.java",
+    "sha256": "762f8c25031729352a68419ac60d9bf536f591a817ae60313601c27920cd7e0c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageFailureReason.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageFailureReason.java",
+    "sha256": "c308c54aa30103dfbaf706e7b31828ba3db366f1cd158e8020e435bc2e58cfbc",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageInheritancePolicy.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageInheritancePolicy.java",
+    "sha256": "f30384d3923f8a21cbec60970d87374852a747e3dbbf2bf667cf5e70d947e658",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageLineage.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageLineage.java",
+    "sha256": "786a792747d6f72a3f354002d24c953ccfca0070a9cd43ca20caef13b5669b1b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageMetadata.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageMetadata.java",
+    "sha256": "cb223545ab17c0ed27c05fdc85674102e3d480603b9e86c1fc1d8efe0d07484e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageMetadataKey.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageMetadataKey.java",
+    "sha256": "1cf20255caf66568443a2ee41f52554d397e47e9842e052f61fa99f5b5707247",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageOrigin.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageOrigin.java",
+    "sha256": "bd44988cf376ba3ddb2837acf23d499099989fb92d506fd6a3308553438ba6f7",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageParentRef.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageParentRef.java",
+    "sha256": "0e2a3bc00edd03445d97acf194d042cc267f941b0890beb293a58d603ae8fe40",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageRequest.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageRequest.java",
+    "sha256": "9013a3b2578e2876c09c3cfe74f35b1af82def5b9dae3e712dcc101f93e435fe",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageRequestKind.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageRequestKind.java",
+    "sha256": "58c1943375d11cd5ba57a2fd53245a27c4932b67a87fae9478bb4d447d251246",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageResult.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageResult.java",
+    "sha256": "1b7120b5e763c00e88eae6941acd59a47418265de6d9b59922458fd0d1d285ea",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageRootDerivationBudget.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageRootDerivationBudget.java",
+    "sha256": "6ec93b15a61450ae2dce517907fd1f6dad998691e61790b11ed3216643ac5ec1",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageSettlementSnapshot.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageSettlementSnapshot.java",
+    "sha256": "9e868f3dc85b59ea8eb8e0403d1688cb4cbe5a419d9a582f0e73eea108caa020",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageSettlementStatus.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageSettlementStatus.java",
+    "sha256": "ef346f2285f61fc11676803a2e9c7087974040ae42a6e377ded9002c3295ae46",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageSourceDescriptor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageSourceDescriptor.java",
+    "sha256": "e53db41f073866e828aa1b292151f6336d87244722a39f37e8bdf4ba72d23004",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageSubmissionStatus.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageSubmissionStatus.java",
+    "sha256": "47d38ad160df2e843c52dc8764cde4283efab163967680c76b2aabb5c6175f7f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/damage/DamageTriggerPolicy.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/damage/DamageTriggerPolicy.java",
+    "sha256": "c3e6c18753ad2e1a597a94daa14d78e59e9327fb426fec2971d0cf1afeaa83ed",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/DamageNexusApi.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/DamageModuleApi.java",
+    "sha256": "88ec35f8ffc53839611df2fa16bc2a447db350bd1c0255fe2877c981b436db76",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/DamageNexusAttributes.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/DamageModuleAttributes.java",
+    "sha256": "fe56e1af45f7c97833da26ca089069879cf7327c4967d08cb71beaded451430b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/DamageNexusIds.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/DamageModuleIds.java",
+    "sha256": "29be253adbb770bb8ead349f5e6543710faa207c9b40752491afcc5875a1cefa",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/DamageNexusPreMultiplierBuckets.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/DamageModulePreMultiplierBuckets.java",
+    "sha256": "eac92b55c45d0917f672a2522100f963fe33438ab29364c4f16444e5a957c032",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/DamageNexusTags.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/DamageModuleTags.java",
+    "sha256": "bb92f8e7537f2a05143ede33100e3724c544611bdc8904a9713f5e24229547cb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/DamagePhaseProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/DamagePhaseProcessor.java",
+    "sha256": "15514ad45c4fd8372c83589cb2751e47f2d076e5a168a827a464532db0f04d1a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/DamageProcessorPriorities.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/DamageProcessorPriorities.java",
+    "sha256": "d11426b3b245e760b849e6a3df8bb22455f93248fb62fb6c798354f14186251e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/display/DamageContributionDescriptor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/display/DamageContributionDescriptor.java",
+    "sha256": "b1f02c41c8174eafce60a00cbab76c0f960b41c9ce9d468cdf3235b4e5486c4f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/display/DamageContributionLogFormatter.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/display/DamageContributionLogFormatter.java",
+    "sha256": "131378b43d6b6161bbb0079b7ac3cc1b7ba9bac0b374ec38ca76df2adc7b76ea",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/display/DamageContributionOperationKind.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/display/DamageContributionOperationKind.java",
+    "sha256": "21375f84cf33a04d850d283d97764b527973c1555614699e495b13923a86dcec",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/display/DamageContributionSourceKind.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/display/DamageContributionSourceKind.java",
+    "sha256": "60ffb11d10c44561087d39a70c8d302854b1fbfcf217e4db6b0e39975ef5e20e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/display/DamageContributionStatus.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/display/DamageContributionStatus.java",
+    "sha256": "ed5a9be5cb628636595fa3237cb0ca551fca1d9c04f6218dd12d277631eac0ed",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/display/DamageContributionSummary.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/display/DamageContributionSummary.java",
+    "sha256": "eebb71aa65c69361d567b10eef5d706c312827ff008a819baad9fcd57485c631",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/display/DisplayText.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/display/DisplayText.java",
+    "sha256": "b53d4bcef7316b3f94c206e85f3096a11f8b5062fa75bf243f12b047283e00b8",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/enums/DamageApplicationBucket.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/enums/DamageApplicationBucket.java",
+    "sha256": "cae21236721aec9df1266a935eeede047a30fe6f1288303f24a9c41d7f23ed3b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/enums/DamageChannel.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/enums/DamageChannel.java",
+    "sha256": "c138e02c9bde2ac3aace0a81757772a00846f5da6f39020789c6f8f298759935",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/enums/DamagePhase.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/enums/DamagePhase.java",
+    "sha256": "298cb9a118a1ee072b59700ceee05b30db14dbed0cbf4b3b1693c0f9e3e435a9",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/event/DamageNexusRegisterEvent.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/api/event/DamageModuleRegisterEvent.java",
+    "sha256": "a758c4b41a3f24bd5f6380460589ba7e919bf399f19280796f6bd01839ab33cc",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/event/DamageNexusRegistrar.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/event/DamageModuleRegistrar.java",
+    "sha256": "9a5edd2f8fa61c6d16ec791ce415bce9d48c5dde6d1486ff5f6c94f7e7bf0176",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/event/DamageSettledEvent.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/api/event/DamageSettledEvent.java",
+    "sha256": "482d17159acb701fab1e435eeb47484067eca9c76861fedc7d98296ebba06869",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/event/DamageSettlementCallback.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/event/DamageSettlementCallback.java",
+    "sha256": "c432df7e7e723c7e67688088cd6ca94a0d596f81c825b5586ebf0d9543edaa5b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/event/DamageSettlementListener.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/event/DamageSettlementListener.java",
+    "sha256": "4aee2cde4d6dc8355bd9004643aa72bca2297564eed58d7a0f83294dfbbf652c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/item/DamageNexusItemApi.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/item/DamageModuleItemApi.java",
+    "sha256": "5923dece624fa083447dd8793be4bf96c6930c154fe014e2a430f780d31b3215",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/item/DamageNexusItemEntries.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/item/DamageModuleItemEntries.java",
+    "sha256": "60b3e5cbe459732484421d176f0e59db600184cb88d6bd44d0dcef4e0a643ed8",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/item/template/DamageAffixTemplateReference.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/item/template/DamageAffixTemplateReference.java",
+    "sha256": "968591c0daccbebed809e68069030ac174aa624615a52382114ee92a6a628c8e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/item/template/DamageEntryTemplateReference.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/item/template/DamageEntryTemplateReference.java",
+    "sha256": "0bfa85c5fc64a8c8eba962f9c44c62d4ef8e26c415bdb346d2597ce85de76f7a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/item/template/DamageItemTemplateReferences.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/item/template/DamageItemTemplateReferences.java",
+    "sha256": "f60fdea7e4824da5730be685ed84431b081a0a145b1d9542a82f62649e206f8d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/item/template/DamageNexusTemplates.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/item/template/DamageModuleTemplates.java",
+    "sha256": "8a041c6e1d3651aebf3a3aa308ca72ba5930fdc9871350040de58675115c05f4",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixBlueprint.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixBlueprint.java",
+    "sha256": "400eca5558fbbc22f212777d571fc37e36bc4da9d979cf8492dad340dd44c51e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixDefinition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixDefinition.java",
+    "sha256": "34f7392613fcdcbb6e480815f127278d4ac5ed5fd2b908b1470c20da41246d97",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixDisplay.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixDisplay.java",
+    "sha256": "26f1f6549066d52bb31bea17f28cc9284ccdc9305e68f53368b223b45a927d80",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixGenerationSpec.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixGenerationSpec.java",
+    "sha256": "95d9f28d240b1d39b516aafd2f677b2d7ac6be0a4562cd9a0c107abbab89e45d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixInstance.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixInstance.java",
+    "sha256": "538950b4afdddde4a2fbfe5133d75b56c097c34d59f7331c154bad3834c55160",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixRarity.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixRarity.java",
+    "sha256": "8afe49f39d03509577a37ebb7533f8cb6705b016c6c70c80a6461e782e8d77a4",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixRolledValue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixRolledValue.java",
+    "sha256": "886a92fb68091840346fbad5d1645cdb1d2a196ddaa08cdea565cfa1bd881eaa",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixRollRange.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixRollRange.java",
+    "sha256": "dbcfcb81d40302ad676e26dff69247d413b3f811272275edf07a03619e26dd08",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixSelectionResolver.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixSelectionResolver.java",
+    "sha256": "dc1f90b247749f26d2ef5fddbfebac00ff71dff32d39899c038a8bb9d255d66e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixSlot.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixSlot.java",
+    "sha256": "328eabf99055f72abd57483916174ce605c0681694e93829037c66af16bd7438",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixStacking.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixStacking.java",
+    "sha256": "0e633f57d0474cb9bb00ec025facdf29af6fe48582f1b7f3873e28bf05e09c2a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixTier.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixTier.java",
+    "sha256": "820390054fa268a9d96a7b99c658748cf3f96b74772b4376ee09f919a999d20c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/DamageAffixValidator.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/DamageAffixValidator.java",
+    "sha256": "ed2969742fd12418f5065b8df6d147efecb28241a34816da6cd4703ad3c5dfc2",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/affix/RuntimeDamageAffix.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/affix/RuntimeDamageAffix.java",
+    "sha256": "0fa877a5c4b6b8f048d300a5ccdf26c8c46f17bbd894569694025f02e181803e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/builder/DamageRuleBuilder.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/builder/DamageRuleBuilder.java",
+    "sha256": "85033544c1823db5c64656c6349108118e1573ff48f6e933a1e2b498148e1152",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/ChannelReferencingCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/ChannelReferencingCondition.java",
+    "sha256": "778185c97d50463006b6065afd185d0445b63dd66b4fd6e759dcb485efaf9ceb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/ChannelReferencingOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/ChannelReferencingOperation.java",
+    "sha256": "c0cc37a450cd8092239f48b61f3b9ece855068434c467b25dc3f25af7f85f099",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/CompositeDamageRuleCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/CompositeDamageRuleCondition.java",
+    "sha256": "bfecbfce30e8af92213221a53b0d276246f67d58682efefbbb3871a219858804",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageNexusConditionIds.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageModuleConditionIds.java",
+    "sha256": "5f9f18b45d84d8f908a59ace6914a447151dbd078c188dfcc95e669382b36a4d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageNexusConditions.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageModuleConditions.java",
+    "sha256": "5250b427606cbfdde0f6fd9c3a354785a5614e9e57933c4d9597cd2d172aa7eb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageNexusOperationIds.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageModuleOperationIds.java",
+    "sha256": "93cda8451d0dc3f7ac96374244c35ab86cf40abf6a9792e6346aa9d7a5177c75",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageNexusOperations.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageModuleOperations.java",
+    "sha256": "1876ede028be067af97b72f67c25857f7e22d658ec17e26d95e7ea5c8318740b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageNexusRules.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageModuleRules.java",
+    "sha256": "b0bfb5efd6713848faf132cf7cda62389842b0b81005eccf25dec478aebf8cb3",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleCodecs.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleCodecs.java",
+    "sha256": "f81fb8c84efe676dbe3893387bab50ecf5d69a3e1a67c6fd36e201dcf07d2389",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleCondition.java",
+    "sha256": "115851de0d509c797780acfa7b77c9e6d8bce7aa4e44157895b2600917d1403c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleDefinition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleDefinition.java",
+    "sha256": "e239011c14a62179d2bd756da8499ebf92dd0860180f77dede294fe9231d87df",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleLimits.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleLimits.java",
+    "sha256": "8e656087df58f5068b0d7ac50b51f5838a525df758ed34493a18ee7d7ebd4275",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleOperation.java",
+    "sha256": "3f9b98a1654494e71371fb46f3262f74568139e898c3313e96f11ad3340cf74d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleOrdering.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleOrdering.java",
+    "sha256": "9eef5b0efb98d3ad6f02d63d33544ca79b9f7b03ea76b821fc505752f1032bbe",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleOwner.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleOwner.java",
+    "sha256": "2edebe19a93f239a251206b03a0e105ef6dcee6dcc769013a6adebe18c47024f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleOwnerKind.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleOwnerKind.java",
+    "sha256": "16a258310950ee55426087af73c6a3fb44eb26a30e476871bbc7ec18bc076e86",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleProvider.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleProvider.java",
+    "sha256": "aa5e37a0e519e1ae4b55ad05a83efe8559200cf4b4aba30c042e6a430d846d6c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleProviderType.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleProviderType.java",
+    "sha256": "400e78a2a83a4ebbfc7fcc5082d186a13a79795019a9ff171b72820ad55d3b30",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleReferenceValidator.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleReferenceValidator.java",
+    "sha256": "b397146e0d50123681c808936bc874e4247a1e88e90e1c19a1b9d3162e44eb20",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleRole.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleRole.java",
+    "sha256": "cde76140be2208f25e6d251863e6e176984e2d4de6fb1ec4be1b8c2f6cd940b2",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleStacking.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleStacking.java",
+    "sha256": "0c4ac851de4fd6641fc539e4f13d1583d07ccf638e49d0c01ab3c9208ecdf80b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/DamageRuleValidator.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/DamageRuleValidator.java",
+    "sha256": "b3027be04baa4bbdd60d2811e8669cf42e269678b23e8cae7cad840aed7ffeb0",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/entry/DamageEntryDefinition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/entry/DamageEntryDefinition.java",
+    "sha256": "6386de2dd5d07df24d99d1eb1da4d9a674f49fe99da10d4d1b433c933ecbebd7",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/entry/DamageEntryDisplay.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/entry/DamageEntryDisplay.java",
+    "sha256": "cd8538828dec5048d337fc7cd6ea67e19a21fa79956b785382ba43a6133f7727",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/entry/DamageEntrySelectionResolver.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/entry/DamageEntrySelectionResolver.java",
+    "sha256": "5e3f5d1454a947c3eecdeb81244e5ddc2bdbadca3ad819a4eea29ad574bffdef",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/entry/DamageEntrySlot.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/entry/DamageEntrySlot.java",
+    "sha256": "0d9ef1f949fd65524389e297e37aec3798134a329e235155c5dbcce4f337ef30",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/entry/DamageEntryStacking.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/entry/DamageEntryStacking.java",
+    "sha256": "32838974bc5a5aa9636bfab1d8c511c50952b644b228386b4313d50a341f1a88",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/entry/DamageEntryValidator.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/entry/DamageEntryValidator.java",
+    "sha256": "d4da3924acf6b97e7632193e2300073564afbb906280c60d7cbe2405c5cd2939",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/entry/RuntimeDamageEntry.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/entry/RuntimeDamageEntry.java",
+    "sha256": "ca94053d04c76ec3e89525858766cb208d2fcbe88743ba949448a460072c91ed",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/PreMultiplierBucketReferencingOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/PreMultiplierBucketReferencingOperation.java",
+    "sha256": "5eeae7050c9a5fe6e0a3aa36d18fe1c6f97c3f6f54cb64bbc14225e1343091bd",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/provider/StaticDamageRuleProvider.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/provider/StaticDamageRuleProvider.java",
+    "sha256": "4558c34edb66f55ba95ab8ca6cb4c33650f58ff770b23d1f6e243cd7dfba141a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/RuleExecutionContext.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/RuleExecutionContext.java",
+    "sha256": "ea2d6cac8d18f9fc63284b8b2a4647122a96dab04298b3d3ec26cb9f04ac8fdc",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/RuleSourceLocation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/RuleSourceLocation.java",
+    "sha256": "72abe7a17904b4f73353f1813896933216d6ce388b97b5f3b5890bf673175be9",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/RuleTraceIds.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/RuleTraceIds.java",
+    "sha256": "2133e9b140dbdf00890624270fad59f151b5eef26cadd816f9c1f17682fa2611",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/RuntimeDamageRule.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/RuntimeDamageRule.java",
+    "sha256": "29d7ab22ac8a2cdad25a29755015a6c46da69617551b299d1a1b10f73aa8d981",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/source/EquippedItemRuleContribution.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/source/EquippedItemRuleContribution.java",
+    "sha256": "779aab0d12923138e56a849f648ee17b0c23041a30cd014ba29bec32164d99fc",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/source/EquippedItemRuleSource.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/source/EquippedItemRuleSource.java",
+    "sha256": "3207d54f3f6ec40760584619a34e56662a085628db85a075c6b64ec7d3756ae6",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/source/EquippedItemRuleSourceCategory.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/source/EquippedItemRuleSourceCategory.java",
+    "sha256": "2b0bedec17de4ce2c3aa15c1a531095c76723166c8e8f4e6218107c0aacc6523",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/source/EquippedItemRuleSourceDirection.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/source/EquippedItemRuleSourceDirection.java",
+    "sha256": "a9719411ab8837e8612f615054ee2e087d21afe1517fae2d354f76e451eb4aa4",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/api/rule/source/EquippedItemRuleSourceQuery.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/api/rule/source/EquippedItemRuleSourceQuery.java",
+    "sha256": "8d6bc635a45cfc3279bd37b584dba68e5102584b4ef24b4a2571273f45f1ccbb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/block/DamageDummyBlock.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/block/DamageDummyBlock.java",
+    "sha256": "114a98ab51a90eef1473faee569831298d9e73b52c85108e6e767b91c36431ce",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/block/entity/DamageDummyBlockEntity.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/block/entity/DamageDummyBlockEntity.java",
+    "sha256": "829af8418a3cc58a7c733543704a51164b032fe4d607507966f194bac8677b3b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/MaceDamageCapture.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/MaceDamageCapture.java",
+    "sha256": "b667866ac46d9bff760431edad0d4bdf2303e939100482dae634a576ae6df4ee",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/PreEventDeltaKind.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/PreEventDeltaKind.java",
+    "sha256": "7fce37588875e0361bb116c4a895577d39dd56de117ddbe2d30ff13a4d6d84ad",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/ProjectileDamageCapture.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/ProjectileDamageCapture.java",
+    "sha256": "0e13323b3dfcc443bfec10d31f34b55b8c89d620bc52858b788e4082e0165724",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/SpearDamageCapture.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/SpearDamageCapture.java",
+    "sha256": "e81c11d97f10c57e4d5c49f3fad57b7de95bf2e97841d6eb7deca357f52c8875",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/VanillaBridgeLogger.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/VanillaBridgeLogger.java",
+    "sha256": "c08635a4188bd5858dae97fcdd50ab71220001a93530bf18f49103121a56a30f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/VanillaBridgePlan.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/VanillaBridgePlan.java",
+    "sha256": "c2ccac2e4d79e19639071395b792a4d5410141f5c84f99a80c5ad43c144ab04b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/VanillaDamageCapture.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/VanillaDamageCapture.java",
+    "sha256": "9ad64979a2e82544d2c36c5320c241bc5ffd9d7633494ec7ac46fed5f9aa3b7b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/VanillaDamageSourceProfile.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/VanillaDamageSourceProfile.java",
+    "sha256": "8a360deaf6b5283216a3047dc361b8cc4bc5b506cca10bb5e37e197c9252ba26",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/VanillaMobEffectBridge.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/VanillaMobEffectBridge.java",
+    "sha256": "4c9755905bc63ae43a465b701c5ada594663860e065e57334f650f60298ac679",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/bridge/vanilla/VanillaPreEventScalingBridge.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/bridge/vanilla/VanillaPreEventScalingBridge.java",
+    "sha256": "c2d1870f8138b7537649dcdf79dc22d4be75246b12e5c8b6fc4042b0157dd3dd",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaArmorEffectivenessProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaArmorEffectivenessProcessor.java",
+    "sha256": "0360ac5dfe00a76b63daef496427c49b39fd6f074beae61f7fc2874edfbf5674",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaDamageProtectionProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaDamageProtectionProcessor.java",
+    "sha256": "aed271e2f649a1ada066a7085cac771599489797482c05e41ce94d7a46c91a82",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaDifficultyScalingProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaDifficultyScalingProcessor.java",
+    "sha256": "f753c8da1e1cd06c3db27850f41d49ad1e29f3b387668d78f2e6f561e284c925",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaInitialBaseDamageProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaInitialBaseDamageProcessor.java",
+    "sha256": "77e07813da14ec563eec42db567941ae039a6afceb997bfe0fc78e77a2652c24",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaOffensiveEnchantmentProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaOffensiveEnchantmentProcessor.java",
+    "sha256": "4617790c582549536ecb498f9f13bcd525c0596c83720c9e2c623e73812a70ef",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaOffensiveMobEffectProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaOffensiveMobEffectProcessor.java",
+    "sha256": "e88d11b2054bed25a434db7ced73407f728f89ff2dc2e1515b8955421bde7198",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaPlayerAttackScalingProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaPlayerAttackScalingProcessor.java",
+    "sha256": "31f0d8be05ad623d88d35fe77de7c6f06a32681988c262dab833a2588e857879",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaProjectileScalingProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaProjectileScalingProcessor.java",
+    "sha256": "86435772c1f6646e911ac06c8a0f8b4d92b5e92cd0852fb4fb3bb816f94ad0b9",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaResistanceEffectProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaResistanceEffectProcessor.java",
+    "sha256": "5625f3304d0d1a17ce3f382594b32a23dfc6ba1510de1ca768451c5e87fd13c8",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaSpearBonusProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaSpearBonusProcessor.java",
+    "sha256": "fba23b04031989801e4c280dbf1c2b1780853824cf43add122c0739a846136ef",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaSpecialAttackScalingProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaSpecialAttackScalingProcessor.java",
+    "sha256": "e2681750ed558f97a7ce7c168a823858e7fbaa9d7bda4a4392787e51a743eb1c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/bridge/VanillaThornsAttributeBridgeProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/bridge/VanillaThornsAttributeBridgeProcessor.java",
+    "sha256": "816ca41f49593957ac68f7b06f8a6bd1d7be818ba58e7d161b51c769dfaf2599",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/processor/ArmorMitigationProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/processor/ArmorMitigationProcessor.java",
+    "sha256": "c1dbb8e84ff29229345d71d52b81bd324908a753cf583c806d4d21a59154ac40",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/processor/ResistanceMitigationProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/processor/ResistanceMitigationProcessor.java",
+    "sha256": "65c97bec974a9577af2ae80adfc36fd5f62559e0d6d85e0435aa493dd0350c0b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/processor/RuleExecutionProcessor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/processor/RuleExecutionProcessor.java",
+    "sha256": "04df41ddb71aa8e4adcc7c8d1197022b49532e2d80eb6efdb4a1bf5ad1541b45",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AllOfCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AllOfCondition.java",
+    "sha256": "2ae8d88c23106a68c6c1e3b59a56ea0b2a5133b45fd86a7ceec0fc5852ff704b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AlwaysCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AlwaysCondition.java",
+    "sha256": "c294a27f09c7adb8651cbd3b387a5d9e057947054e7992466ea2c86d821590a8",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AnyOfCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AnyOfCondition.java",
+    "sha256": "b47cdd2b25e94dca8444c3adb5c8294dbd4af17f96215ca8948b513c2f3e2c5c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AttackerEffectTagCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AttackerEffectTagCondition.java",
+    "sha256": "c5ea783af0219dd982e3b54fef5d6eb67a6b245d387a4b6b7bb3abe26f254ad9",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AttackerEntityTypeIsCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AttackerEntityTypeIsCondition.java",
+    "sha256": "f22829cd5cb2af0965a839c9189c60a36339710a9b14b842299345c79b82e815",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AttackerEntityTypeTagCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AttackerEntityTypeTagCondition.java",
+    "sha256": "ff3d64ebffaf5a7f79bccbf9af8249dfaea7701ad2c7ab9232d68ba3bab2c019",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AttackerHasEffectCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AttackerHasEffectCondition.java",
+    "sha256": "7eaf22d2cfb02fe55426cd7813167b64bd46cf59df8c685a0df62078d52a4afc",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AttackerHealthAboveCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AttackerHealthAboveCondition.java",
+    "sha256": "da31221ff7102262d8862bd62477f934802efe3bcac715b56a176618adc9ed77",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AttackerHealthBelowCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AttackerHealthBelowCondition.java",
+    "sha256": "ec957f89e584eef4f014911682939eb23e656b83a912f36ab4225250c336898c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AttackerIsBossCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AttackerIsBossCondition.java",
+    "sha256": "88b414edcb1e5f9087441a6ea6c01a599cda5860ea56e995616cfbe543aba47d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/AttackerMobCategoryIsCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/AttackerMobCategoryIsCondition.java",
+    "sha256": "9c45142ffe99b7e6d424171db101e75ed7cf0882450450ef2cdd9b3ee1397fdb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/DamageChannelIsCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/DamageChannelIsCondition.java",
+    "sha256": "5284e62ca4c8994759ee740c08b23b5e2bd6a5e9ec4039a6da127fe2fb79c385",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/DamageTypeIsCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/DamageTypeIsCondition.java",
+    "sha256": "547c537c520f5fdae7b51d5a1f9b238eb6b0c96c5a70b1a8fbead7aef2f3f345",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/DamageTypeTagCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/DamageTypeTagCondition.java",
+    "sha256": "0b66c02f574012cc8e64a2ba689d61da126e830f53ea61f9cd40b4af5aebe953",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/HasParentDamageCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/HasParentDamageCondition.java",
+    "sha256": "a1ce5ed22c4a4f668fff139e80b3492f8f738d4cc9c7cb816ef69b70adcb54d1",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/IsCriticalCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/IsCriticalCondition.java",
+    "sha256": "28f458fafbc6a6b7eb0bc407ba862d8f42c6546c2e36829f6d261bff72ed42dc",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/IsPrimaryDamageCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/IsPrimaryDamageCondition.java",
+    "sha256": "0b872c46ddf26fd667555563d68eb6c80c6e600080458ec08ae45b46be2de93f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/IsProcDamageCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/IsProcDamageCondition.java",
+    "sha256": "13cc6ac49ab0c82a77bb38af4256409b41d13219d19defbc76c09d3a02d42116",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/MobEffectTagConditionSupport.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/MobEffectTagConditionSupport.java",
+    "sha256": "7e7257438d9925effbedf06ab30d36b4441038a636670b11497e9b91ad9a2573",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/NotCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/NotCondition.java",
+    "sha256": "cec97518bacf05e30857730f30c5fbd5a7fac6554cb10c2f982d5cecadea8e10",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/ProcAllowedCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/ProcAllowedCondition.java",
+    "sha256": "fefdd85d4da56313a169992814b9ab84a3ed548e809d6c3833cb71f5784db4f0",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/RequestKindIsCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/RequestKindIsCondition.java",
+    "sha256": "a36409792a9b52f3a3d6d9b30cbb5015e4b13653c9fbd3f08f5b0b08f418e1ad",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/SourceActionIsCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/SourceActionIsCondition.java",
+    "sha256": "46f037001efd433a5e1513342221364380cffc9c2c63ecc77b4617519c388c0f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/SourceTagCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/SourceTagCondition.java",
+    "sha256": "293f8019795ca3e6227cbcdc5ce8e6de239f0fafe9991d43501dada8f2b555e9",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/TargetEffectTagCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/TargetEffectTagCondition.java",
+    "sha256": "84dee9add8202b051128b509082e465b9ff6c08ef85533e1aa2ba84f7ef7ec28",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/TargetEntityTypeIsCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/TargetEntityTypeIsCondition.java",
+    "sha256": "7df8fd029751034e75054e394aef39c425ddc42120f45b5218dcdfada2b91623",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/TargetEntityTypeTagCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/TargetEntityTypeTagCondition.java",
+    "sha256": "d46348089146978a6db25d99ed28fc97b2e9053d8251ea642d598ed53852120b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/TargetHasEffectCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/TargetHasEffectCondition.java",
+    "sha256": "b295fb5245637fafbab0a6f9438ccaabf492878c8f4a69fd787efd183eead3dd",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/TargetHealthAboveCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/TargetHealthAboveCondition.java",
+    "sha256": "b9beb47ddb0c665abb358baf8639d9ee43c4467219a9e3046ad9766c0edda7c7",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/TargetHealthBelowCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/TargetHealthBelowCondition.java",
+    "sha256": "3853794c33b6b09dd9e2f4b3c14321775ca10b92f1aae2ee972a65903ac2f763",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/TargetIsBossCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/TargetIsBossCondition.java",
+    "sha256": "edf4e5ef2ef040a3214d038cd9c97df654472f67c5b3c551f71ab23ef400ce8d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/TargetMobCategoryIsCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/TargetMobCategoryIsCondition.java",
+    "sha256": "c8f544fa1d116ef7510ceea2ceaa405681a9b16238851877de7871ab9a687554",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/condition/TargetOnFireCondition.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/condition/TargetOnFireCondition.java",
+    "sha256": "fe290d50d524889b54725f41e7bf0677450b6e93beac053a0f0fd17bfaad7466",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/AddBaseDamageOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/AddBaseDamageOperation.java",
+    "sha256": "416daab7d0fb7614f062b31fc9aa640a2d1d74e67e557b11e5df125d00fe3700",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/AddChannelMitigationOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/AddChannelMitigationOperation.java",
+    "sha256": "05b5e1a5d54c999849101292475f66c89aa6a2901935c1add84d874f95b5eb06",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/AddChannelPostMultiplierOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/AddChannelPostMultiplierOperation.java",
+    "sha256": "781ad2e883d61f09ab71e179c9d7c12beaddeeaac6ef66f3291a67859d11ba89",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/AddChannelPreMultiplierOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/AddChannelPreMultiplierOperation.java",
+    "sha256": "b54787a0fcee6d4be69eb9a038da082289ce9fcf60e990dbb50ccdfebf4dc7d5",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/AddGlobalMitigationOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/AddGlobalMitigationOperation.java",
+    "sha256": "25a53141ec16b202c62fd5af72d16888ab0225babc10d83cd175f9f51648462d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/AddGlobalPostMultiplierOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/AddGlobalPostMultiplierOperation.java",
+    "sha256": "4ff313a073a59e4912ab7829d1c04594c9f786737236fa62eea3614263626c21",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/AddGlobalPreMultiplierOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/AddGlobalPreMultiplierOperation.java",
+    "sha256": "1faf6de7e9a8b43d34ffd2794ceb1f0183f666c5d26f4530aeb0049f0744d8bb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/AddTemporaryResistanceOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/AddTemporaryResistanceOperation.java",
+    "sha256": "2f2f0c1a71648fd0028ff74278a83b7065ffa9edf47053c2d2ee7d59a65d91f5",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/AddTrueDamageOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/AddTrueDamageOperation.java",
+    "sha256": "891d1b2a566087c731fed2b046e0453ca222af78fad4a351feb45016d5b423b3",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/CancelDamageOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/CancelDamageOperation.java",
+    "sha256": "4babb73def33c5a7796cee3ad134524b059613bd9f22f7eb2bd1333b7b7bce40",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/ConvertDamageOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/ConvertDamageOperation.java",
+    "sha256": "32cc045e0db71986391e2547e5ada8976eb74ffdb1be2fa6b42dca7eff44d32a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/DamageOperationChannelIds.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/DamageOperationChannelIds.java",
+    "sha256": "3ef4a1e2984a425ca418c28a7d0d0f60eff5a06df69615955cabe0d9d5a68b7a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/DamageOperationPreMultiplierBuckets.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/DamageOperationPreMultiplierBuckets.java",
+    "sha256": "252c32cae50f4c4891f4f48b1c0e4a566f59660e3bfd8a418e43cd1b13edc5f4",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/GainExtraDamageOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/GainExtraDamageOperation.java",
+    "sha256": "5944fc02e3a1b455200f9e96508ffbf405c0de1e462c94053f564f32f4dc7b56",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/MultiplyArmorEffectivenessOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/MultiplyArmorEffectivenessOperation.java",
+    "sha256": "f6e00075a497944fc9da5fcddb81772ef94fc1938920075ee746d4f61816c210",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/operation/OverrideFinalDamageOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/operation/OverrideFinalDamageOperation.java",
+    "sha256": "84488ab8fbb68e43fd053efd1a1150d62a886d794f4d1459e7693b48e4eb4d35",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/provider/DatapackDamageRuleProvider.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/provider/DatapackDamageRuleProvider.java",
+    "sha256": "43220b75eb0fe3cfbedee6bce524fc3d55e383d95c4bf7ea65ceaee2bdbd6355",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/provider/ItemDamageRuleProvider.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/provider/ItemDamageRuleProvider.java",
+    "sha256": "6f065a179b32724bc393a2f762708a658b1e295bd9b8d61170e3e506eab99141",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/builtin/rule/provider/ProjectileDamageRuleProvider.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/builtin/rule/provider/ProjectileDamageRuleProvider.java",
+    "sha256": "0e2b4de89fa1e5e3b2ff400085d2767bf8c3f2d187188a924a42ee44221fb84b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/damage/ClientDamageNumberManager.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/damage/ClientDamageNumberManager.java",
+    "sha256": "6c7e78e740dececfd5e412ed435ea65a4ee3d13390fa21261c344acc35ac7176",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/damage/DamageNumberClientEvents.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/damage/DamageNumberClientEvents.java",
+    "sha256": "ce9f75a6eaa9dd5ef02bbeed47bb6302e39db78ccf72c4da015c6a9c2e2175ac",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/damage/DamageNumberClientPayloadHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/damage/DamageNumberClientPayloadHandler.java",
+    "sha256": "a6a106933a058df051be2e10f0fa6e16408836ea16e000bcb8c849dc3e271ae8",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/damage/DamageNumberFormatter.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/damage/DamageNumberFormatter.java",
+    "sha256": "326a5f1c347a5be0daefee14bdff4bc73320f5e693a9e864c7e3a992580aa9fd",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/damage/DamageNumberRenderer.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/damage/DamageNumberRenderer.java",
+    "sha256": "585adc0d3dc30665bb864b4be52ab8201c396d0087ba3b0ff4625cd245c3e440",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/damage/FloatingDamageNumber.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/damage/FloatingDamageNumber.java",
+    "sha256": "f0344ee248876f45a855bfc1ac483bc45ffb6431b7d3f6b5a27bc4a30bc346cf",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/DamageDummyModel.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/DamageDummyModel.java",
+    "sha256": "cc68b23ac13dc727c3588f46975b45ab9d834ee6974d800fedb83f4d9e1f58da",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/DamageDummyRenderer.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/DamageDummyRenderer.java",
+    "sha256": "6a6790cb90f31df4d8f9c2c6fc4673c13175949def884dd5c9810833f35cf53d",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/DamageDummyRenderState.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/DamageDummyRenderState.java",
+    "sha256": "37e910bcab8969fe879dcb38efb77a111120ea506603d67e47ac367f080615cf",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/ModClientHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/ModClientHandler.java",
+    "sha256": "0c2ca98e730ab856634ba397a3885852c2a26d07b129ff159978436909857447",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/screen/DamageDummyAttributesClientPayloadHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/screen/DamageDummyAttributesClientPayloadHandler.java",
+    "sha256": "d7dce341f742a4235cf6674a74085a1425e4bfe7eb3993589d697aa0f110a7c2",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/screen/DamageDummyScreen.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/screen/DamageDummyScreen.java",
+    "sha256": "c9664e29ab281e4983e9d9357a784af7f68f7e5e8c047344f26712ac36e1ef85",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/screen/ModMenuScreens.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/screen/ModMenuScreens.java",
+    "sha256": "b6cfb1ea595b71f5aa76241052a7f83c1005cb8aaaeae5367ca5f40e6f951783",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/CombatContributionComponentFormatter.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/CombatContributionComponentFormatter.java",
+    "sha256": "5ba73e9cac72a5cf95fc4de77e5ca19bb3478ac1c7d093ec21d18e6783dab107",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/CombatContributionTooltipRenderer.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/CombatContributionTooltipRenderer.java",
+    "sha256": "2a8894285b082307064faf2df56bc2a466941cc55f83037997115c4d6f1ef7d4",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/DamageNexusClientTooltips.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/DamageModuleClientTooltips.java",
+    "sha256": "02bd693427c535328be9213ec3c034177d238093a2b04e01de4593d906daaaa5",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/DamageNexusRulePhraseBootstrap.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/DamageModuleRulePhraseBootstrap.java",
+    "sha256": "097703495cf82c57bee1bbbee8fe35ab02dc273a24e885bcf1c26919c58a1116",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/DamageTooltipRenderer.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/DamageTooltipRenderer.java",
+    "sha256": "9602d70c07eb6aa0f842f68e693659759ace819e0bba5ee92b84092c178f948e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/DisplayTextResolver.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/DisplayTextResolver.java",
+    "sha256": "f3f2324f6e5b8867919ff7a59b99f1bf19dd72fe11f709397f2f577e802199a4",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/AffixTooltipView.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/AffixTooltipView.java",
+    "sha256": "a53d1f6dd11732885c35b763e34171a63932053353d242a17cc78b3846b240bb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/DamageTooltipDocument.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/DamageTooltipDocument.java",
+    "sha256": "c27753e88d3387169637f50b3d338b2ee3c21e7e78b318b9259123b0ccd16be1",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/DamageTooltipDocumentPlanner.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/DamageTooltipDocumentPlanner.java",
+    "sha256": "3f0107c079f6fb27cf6bcdc8ac7dad54162936f3f92be6e442332e7184427e35",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/DebugTooltipSection.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/DebugTooltipSection.java",
+    "sha256": "9d38f25510329df2bbdfeef4a6a1b58254897721da8255e2108ece828f38600e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/EntryTooltipView.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/EntryTooltipView.java",
+    "sha256": "a2b73f5edc5b8c37d5b413513a3c5ed0b26c5764d95f362e7ae6c15f334897b5",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/RuleBreakdownPolicy.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/RuleBreakdownPolicy.java",
+    "sha256": "710e1349c8d16b3eb73203aef49f996e6aba969f37569ca9e07812297cab9c78",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/RuleTooltipView.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/RuleTooltipView.java",
+    "sha256": "362bad79f9cfdc49d422aa57cb22af5a340c7c5188557c4f16255ee1c21f856d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/TemplateReferenceTooltipView.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/TemplateReferenceTooltipView.java",
+    "sha256": "7f89866dbe6ad6b12bf868f19cde199fb9835d5a030fa9a96abfaa9b3147b3ea",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/TooltipSection.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/TooltipSection.java",
+    "sha256": "d03f29b347de97479b220ce6df69fb29ae4d71e575bc78e73b1fbeda55831a80",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/VanillaTooltipAugmentation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/VanillaTooltipAugmentation.java",
+    "sha256": "5d7e8301ca7585696c45a9d19adbfc2dac46d9a7a812714a27474db39e916752",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/document/VanillaTooltipNote.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/document/VanillaTooltipNote.java",
+    "sha256": "75dea537833343c938b494ecee1b458987c380611dcbe2abb229319eb077198c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/ItemDamageRuleTooltipHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/ItemDamageRuleTooltipHandler.java",
+    "sha256": "3bda99174aad3b7ba4def2851902d60754bdbd94c7998b6a3920ceb8a5937891",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/narrative/ConditionExpression.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/narrative/ConditionExpression.java",
+    "sha256": "1968b8b42868b0556f80acbad740afadd26939bac7902a7ec2cf2140b6ee34a8",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/narrative/NarrativeLayout.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/narrative/NarrativeLayout.java",
+    "sha256": "ad2914a2cb63fd842df34c22854878c6282aaf152539032b8c84602c62a51a7b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/narrative/RuleNarrative.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/narrative/RuleNarrative.java",
+    "sha256": "8464d754726b81856a671f38e5c76f540b660bef9e142fee521cce06de1cf621",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/narrative/RuleNarrativePlanner.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/narrative/RuleNarrativePlanner.java",
+    "sha256": "a3266beafd38beaeaca3b1edd2bd59c08527c8ebea0268ac79a404a74dcb83e1",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/RulePhraseRenderer.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/RulePhraseRenderer.java",
+    "sha256": "17206b89c08a2c4a0b8042b729e6d544d789a99105a732b7595fb72a901d2abc",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/RulePhraseValueRenderer.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/RulePhraseValueRenderer.java",
+    "sha256": "9cc1fcc76efdeca3af5e573f2d8289bca5572927c5ce2bce3c99589f29bc6d10",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/TooltipDetailLevel.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/TooltipDetailLevel.java",
+    "sha256": "7a34542e5949518c34435bac9ec9146073bce06df1204ed1bf4a0f5cc36584ec",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/TooltipPresentationPolicy.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/TooltipPresentationPolicy.java",
+    "sha256": "6cc84693be0abfc7a37901aca07bdc7d1526f0ae6e446dd8aff04bf44062d678",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/VanillaEnchantmentTooltipAdapter.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/VanillaEnchantmentTooltipAdapter.java",
+    "sha256": "1a6e9a1ae589dbdd32a6c5c8c3d1b8f81f26c9af81d59e6a32ac7d5d5c8401c7",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/VanillaEnchantmentTooltipCatalog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/VanillaEnchantmentTooltipCatalog.java",
+    "sha256": "fa257d2de8aac66421cbcd9c5e8d1fb12d7180a93c5686ce9e4c5630fa6fbc32",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/VanillaEnchantmentTooltipLines.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/VanillaEnchantmentTooltipLines.java",
+    "sha256": "cda85450371bb0c2a54333d8fc388b4b3dabe789358ff799206611a825bd996c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/client/tooltip/VanillaEnchantmentTooltipSpec.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/client/tooltip/VanillaEnchantmentTooltipSpec.java",
+    "sha256": "b9a7de22458ec7b606ab32442913c3060f739554eddc46b06a784b170ed498d6",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/CommandFeedback.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/CommandFeedback.java",
+    "sha256": "c54fb873e1067379adb85f392dca8fcc5a89da3f78f0d76a0b91673aa9e749cf",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageAttributeCommands.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageAttributeCommands.java",
+    "sha256": "9f1889fa629ba7784c82393ab117ecda5aae0409500c85df15543cf65cd3e2ae",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageBypassCommands.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageBypassCommands.java",
+    "sha256": "1117ae357b4d2acc5bb4ae38a9749a5b2c83ca656b754acccb1c6b0ba38881d5",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageCleanupCommands.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageCleanupCommands.java",
+    "sha256": "3c06ccc3bdb252459f929730881315bb6869be078460148f06ecf276321dc9e3",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageCommandSecurity.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageCommandSecurity.java",
+    "sha256": "35fceb196de6a508463e6eb8d6aef14d0554c80b747a7968958d976e07c334cb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageConditionalItemGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageConditionalItemGameTests.java",
+    "sha256": "d1908af9d65b7797f0692bec1c331f37d6ad40be7806cfcf6cb0c119640e1faf",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageDamageCommands.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageDamageCommands.java",
+    "sha256": "9e8d00a72aac91016775fab8215e3ec469df943862ba2127f40c7be5da0e3938",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageEffectCommands.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageEffectCommands.java",
+    "sha256": "59a68a045f4cb23bb5f81aac2562e1b80bae7f88844ec697bc0020999731c29d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageItemClearGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageItemClearGameTests.java",
+    "sha256": "5d51812dd1ee7709ae7fa157f5a215ef7bae0942367d846b5324b9f482c4defd",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageItemCommands.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageItemCommands.java",
+    "sha256": "bff98c5e7aca7eb2bd229e641f9a688e8acee4425412e101705dc6db15dd52cf",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageMobCommands.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageMobCommands.java",
+    "sha256": "5965f05e71fee83fce019ebdfbbd8b8ea96207dfab6337a525e470107154a8d0",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageNexusCommands.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageModuleCommands.java",
+    "sha256": "d80adf4d958bfdfb2fa64a896fa7b6048e80280d01874e2a8a8e85c54eb8a616",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageNexusSecurityGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageModuleSecurityGameTests.java",
+    "sha256": "c6c9fcd6eb010eef3f1580988ff1482f83a06c904d7e6670cfb8a8e932d675f0",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageProjectileItemCommands.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageProjectileItemCommands.java",
+    "sha256": "c53157bb1622ccec069871e2d1bb4b6328e6bb68d8a626e640f9fc7dfc555c05",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageTestCommands.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageTestCommands.java",
+    "sha256": "b79ad7e53477e3af6b7311b40c038f9685803dcf46624e3cdf8a733d5f38e6d9",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/ResistanceMutation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/ResistanceMutation.java",
+    "sha256": "ac81037be40750be9d45d7f3152b8d313f618ee17969b1b30c2ebddaf02b6f6f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestItemFactory.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestItemFactory.java",
+    "sha256": "5a5d107399b7809a50d1c5fa387830572d3de17dfa9541187b7df26759fb75b6",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestMobFactory.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestMobFactory.java",
+    "sha256": "90a91f712742a5431f67839c4d2aea833188e8f2222af8b58294f982fed30728",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestMobMutation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestMobMutation.java",
+    "sha256": "365cdee470288a88599da9b4a791e182792882b3bd4eb95ebdd952a3133257c9",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestMobPreset.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestMobPreset.java",
+    "sha256": "643bd286206cefabbf9c5b09df57a558ab57f11bbee80a65fdc35228ed6b1b73",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestMobSpawnConfig.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestMobSpawnConfig.java",
+    "sha256": "16c87f158eaeb5decbb660440bdc86e5062abb8f9844b022cf27baba0427019e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestMobSpawnOptions.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestMobSpawnOptions.java",
+    "sha256": "773849277889567d835aad17694ff5ac4e932ab61dd1dd6db3c34ef872f12c5a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestMobTags.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestMobTags.java",
+    "sha256": "a1f52abdd40a85c11b84cd2a7ae915b4df61eac4d76864e23ead313a800d7792",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestResistance.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestResistance.java",
+    "sha256": "4b881e36f66b845b17ca89622f9514fbf6830cee230937b4ac9e2a233b4fd7c5",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestRuleFactory.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestRuleFactory.java",
+    "sha256": "0854a33a624db07a41f425a5bc229456fb699bbad0dbf6facf755be81073972a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/test/TestTargetSelector.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/command/test/TestTargetSelector.java",
+    "sha256": "63dcae7532384fc941f6015001796c6533594422d70c04b01e1d0ba903212375",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/TestMobExhibitGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/command/TestMobExhibitGameTests.java",
+    "sha256": "b8bbdf8b732de7c600d30b0bd6754033128f2b4864f337c313ce66684c920af9",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/CombatFormulaConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/CombatFormulaConfigSpec.java",
+    "sha256": "6bebcde758a76adecc89b4fe4e45505fea613b1e6b0dd1088002354233bda0f7",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/CombatFormulaSettings.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/CombatFormulaSettings.java",
+    "sha256": "c017f5373d4c10f0ec2bae650a7014306c7f6ced883f0c44f6076950a21ecfae",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DamageNexusConfig.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/DamageModuleConfig.java",
+    "sha256": "9a6b3f15ba5559dacb24323e162451d3d8ed1a4251e44066ff8b70d58af48aaa",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DamageNexusConfigValues.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/DamageModuleConfigValues.java",
+    "sha256": "e9212b2d072ae2ad5689d4fea0875eba398e55a0cf38a57d7f2e282618c5abd6",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DamageSafetyConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/DamageSafetyConfigSpec.java",
+    "sha256": "0f81670f29cee8de48a2ba7954c3934caf276feaada0012bfef50fff73659f5b",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DamageSafetySettings.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/DamageSafetySettings.java",
+    "sha256": "a031fe53696ea9421225fef70a5fd0c9912a5aede69925054c641e91ae0582ff",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DeveloperConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/DeveloperConfigSpec.java",
+    "sha256": "161d598ff045162f18b0c4fbb05cc8a0dffc6a5895b2ca83243f8d437dd867a0",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DeveloperSettings.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/DeveloperSettings.java",
+    "sha256": "3c3365290f8900aaad82eb630cf314d8058312949c6435f3238eea68a2392845",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DiagnosticMode.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/DiagnosticMode.java",
+    "sha256": "4a13815778ebe75750537706a0f81767482ebe7cca62ff402e8dee82f49df9f8",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DiagnosticsConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/DiagnosticsConfigSpec.java",
+    "sha256": "b5bb90ae79bd8ff560ecb9966966f1f6788685c11a600aa51913fb80b882fe63",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DiagnosticsSettings.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/DiagnosticsSettings.java",
+    "sha256": "be64d62248bd60b42f16bfb852e5f2caeddfe1f0ac5f45f0f0580b4b85356e9b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/TooltipConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/TooltipConfigSpec.java",
+    "sha256": "7ff1ac25f1c3400537793918b9aab2eb0fc80cd1470d9bae4b8d8fed5a5123c3",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/TooltipDebugLevel.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/TooltipDebugLevel.java",
+    "sha256": "e32c73e7c20495b8147ba94e5768f94fc120b37f40f4679063c068be60dbad77",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/TooltipSettings.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/TooltipSettings.java",
+    "sha256": "745d5beadbe8536eb3f79ee5dd72d7b5e55d4deca67e3248c3df349826a74417",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/VanillaCompatibilityConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/VanillaCompatibilityConfigSpec.java",
+    "sha256": "17be8fb26ebb079861bc90e7d6acf54dafab311b45877dc3fbb8b747bdb2df7d",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/VanillaCompatibilitySettings.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/VanillaCompatibilitySettings.java",
+    "sha256": "98ff4f0cb0423050b04c157aa27ace543fde89e8b3d377e98048efc95c2649d4",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/VanillaReductionCompatibilityMode.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/config/VanillaReductionCompatibilityMode.java",
+    "sha256": "2dc263627f47dd3e379c965936fca59638da245a928f1ec375c7fe31389c26ac",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/attribution/DamageAttributionResolvers.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/attribution/DamageAttributionResolvers.java",
+    "sha256": "c65b4835a39d3865df0f94c97ea0ac40b1a148d4bea219a2f7aaeac1bdb15c64",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/config/DamageNexusSettings.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/config/DamageModuleSettings.java",
+    "sha256": "5495a87b60749ecbaf8d8e7d8007845a41b6382000e6373344586f4fc94f67d2",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/contribution/DamageContributionCollector.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/contribution/DamageContributionCollector.java",
+    "sha256": "25927b6ae66f1c8d8864d07c291fdd2f9f3110509d0a886efd0548c3897da43b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/contribution/DamageContributionOperationKindMapper.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/contribution/DamageContributionOperationKindMapper.java",
+    "sha256": "372dc836b71a30c4258136eb5f2d4b0c0c381e01a3a84a496fba7813364e1d47",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/contribution/DamageContributionSummarizer.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/contribution/DamageContributionSummarizer.java",
+    "sha256": "e100c08c56c0fb0eae4e24e9e955da8790525888a6640823104d8aa0e83ba3ad",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/contribution/DamageRuleContributionRecorder.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/contribution/DamageRuleContributionRecorder.java",
+    "sha256": "713cc0124aebf6cc83087f887dd0072cee4baca10a8efe9ecf949ee5984a1345",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/contribution/VanillaContributionDescriptors.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/contribution/VanillaContributionDescriptors.java",
+    "sha256": "8fa2c3d6628ac530bc96f21b783e3e4148ecfca6301cde45364d88cb1fa0e8ab",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/critical/CriticalDecisionProviders.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/critical/CriticalDecisionProviders.java",
+    "sha256": "c2242190fac33a7a8aa39cda18aa72c45b94a8e55ea6abcddea1d77e49de019a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/DamageComponent.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/DamageComponent.java",
+    "sha256": "9916bd9b78b55b5143500b3e6f868759e303ac6f9a85dbaf07a0d549a1cdfe19",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/DamageOperation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/DamageOperation.java",
+    "sha256": "46c8d4bf0ec5bb94ac1c2a5ef53e4edff076be6b4d65b8d7b571f33b472cdd7f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/gametest/GameTestCodecVerifier.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/gametest/GameTestCodecVerifier.java",
+    "sha256": "e1aa1bf349e7ba133d6608592de82071e1ad5ec3966c196330e8f796a0127d33",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/gametest/GameTestServerPlayerFactory.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/gametest/GameTestServerPlayerFactory.java",
+    "sha256": "8832122fc500baf778689ff29cd7fbf0c7346bf075f796e4e11258cd3bfc29d6",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/lifecycle/DamageNexusBootstrap.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/lifecycle/DamageModuleBootstrap.java",
+    "sha256": "e7e284f173864ab17f6d043ddd2c5e8076df91f8d9a762bcccb3fcec1970c610",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/lifecycle/DamageNexusLifecycle.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/lifecycle/DamageModuleLifecycle.java",
+    "sha256": "0f31190c270d7ac396502c81e877675315a11a6ff6260c66b66ab15025b10857",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/lifecycle/DamageNexusLifecycleState.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/lifecycle/DamageModuleLifecycleState.java",
+    "sha256": "07a7f8718ea7f689b2288e0fb329805cbbffe5bdb4b6130649fef0586c324021",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/lifecycle/DamageNexusRegistrationAccess.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/lifecycle/DamageModuleRegistrationAccess.java",
+    "sha256": "c04264b0af33f3494adff892ef8e5446adbab27c96fd85725d5489224d804659",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/lifecycle/DamageNexusRegistrationSession.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/lifecycle/DamageModuleRegistrationSession.java",
+    "sha256": "db46c37007b3afce31741fd2134941cc17d47b9f53f54ea6b207ce5fb75a9082",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/lifecycle/DamageNexusReloadAccess.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/lifecycle/DamageModuleReloadAccess.java",
+    "sha256": "005759d09faf3bddc1a98191495396df4d13c4aa839fce6fa3584f7d8ecb4443",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/lifecycle/DamageNexusResourceReloadHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/lifecycle/DamageModuleResourceReloadHandler.java",
+    "sha256": "ec9c21041ad19757c4c2bcb9be48bfba9d68077015cd2050f69907001e4c76ae",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/OperationType.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/OperationType.java",
+    "sha256": "0d3e1f3b7bb905094442483a252d1da3a3cdaed21c9cffe7c83c41a9d3db4e2e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/CriticalDecisionEngine.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/CriticalDecisionEngine.java",
+    "sha256": "968c0e6c0c49ec9768b524be6dc129ba18f257eec097864fe3530a63ac3329c5",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/CriticalDecisionState.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/CriticalDecisionState.java",
+    "sha256": "34a0f96d6f51a1278eeee8093d4f82b21fbfd5a085f52fd2eb1a729cf7843bd4",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageAttackCategory.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageAttackCategory.java",
+    "sha256": "6f31cca82020840f2d9d32b41745d06864b96e099d708925ead24aac32e72263",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageAttributeMappings.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageAttributeMappings.java",
+    "sha256": "12ca0bb67ee287fd989def64cf5fd79a689922e5b13b594b9a69aef71baaf5ec",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageAttributeScalingEngine.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageAttributeScalingEngine.java",
+    "sha256": "77ffb969fdad8766af1b8d0fff817a63da98d1d0e1372633f486a8958d8a4660",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageCombatState.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageCombatState.java",
+    "sha256": "4f6bfc5167f4036a76c0e0f32971cd4962128b266d69d1865729ad4a488598be",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageContextMutations.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageContextMutations.java",
+    "sha256": "73e0839ea815adcfdb3c411d948c057ca8e312b27c4bb5894a3301e1b6cfd2fa",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageDiagnosticsContext.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageDiagnosticsContext.java",
+    "sha256": "c391f82aae93c7c1cbd8081b4df33feaf65b6bd7701b15aa69da503041ef457a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageEventSnapshot.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageEventSnapshot.java",
+    "sha256": "a9d7404b5f0a795cb02e04021ae116185524487c2284ceab1bcde6446df1a510",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageEventWriter.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageEventWriter.java",
+    "sha256": "4edecfdc392f70fd55560f1cbdd830ca1038665004e235b511bd04df64d3f383",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageExecutionSummary.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageExecutionSummary.java",
+    "sha256": "52002e706a2dadb2cd51483ad66bf29a3cafbc4abd2de432cf709c125743e665",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageInternalContexts.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageInternalContexts.java",
+    "sha256": "86fe8e1496696c060c7d0f68bb88935cb5ceec401d4aba3b5b8c904687efbcba",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageMutationApplier.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageMutationApplier.java",
+    "sha256": "2a185ab2246142b1a4a562b543026a527f6ad58a35e8c1bc0d4b1b07f18ae7c9",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageMutationGate.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageMutationGate.java",
+    "sha256": "7caf3107c9015b1a38331398c25e4c4a835eb7ed68198c2e8cb465bd32aaba13",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageNexusContext.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageModuleContext.java",
+    "sha256": "b876311624da70f7b29502050d0be567bb71f4d9fd7a699d5ac5b8813f2ac8d4",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageNexusContextFactory.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageModuleContextFactory.java",
+    "sha256": "ed171053663d61ed3b641ce306fe02a48e1961daa528b92e343fef0245c24dda",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageNexusContextSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageModuleContextSpec.java",
+    "sha256": "af4fcf4a37d934d9a1821d8ccef6bd5fa5915eef06fdb4de41e76b5173168b09",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageNexusPipeline.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageModulePipeline.java",
+    "sha256": "a010ec4c211ac879974795b3b2dcadc3073eb82131a09b7fb2057e0a4fea5504",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamagePacketState.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamagePacketState.java",
+    "sha256": "94831405b2a70e080a25bda234bc59fe2f632957b1acebcfb7a3cea7e7d93149",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamagePhaseState.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamagePhaseState.java",
+    "sha256": "04d034727fb47ff50393b206d320156495a3607b2e407c712d81ec5daeb9429e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamagePipelineResult.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamagePipelineResult.java",
+    "sha256": "bab9aca982e1293f098ea49b9dc2acbbf17fc3c15d3e38122f9dfc5900e434e7",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageRuleContextViews.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageRuleContextViews.java",
+    "sha256": "1544823af5be8a05a9b0a536dce7e2e3e7f2c24e766bfd4761746d3d7c1f272c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageSourceContext.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageSourceContext.java",
+    "sha256": "364a4880c9eb2ed29d2321b65a3e98ea9c61e10a393542584876597f98544275",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/DamageSourcePolicy.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/DamageSourcePolicy.java",
+    "sha256": "d931aa845133060c8351dcfc8d910aee01740792caa2b5c1de658d89d45da2ad",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/mutation/DamageMutationGuard.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/mutation/DamageMutationGuard.java",
+    "sha256": "91eefacdb08776f1cf97217af58e4cf6df36696a21dc6dcf299050b4ee16bee1",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/pipeline/RestrictedDamageRuleContext.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/pipeline/RestrictedDamageRuleContext.java",
+    "sha256": "45751f1bb3def6c7e59a0d9100bf328ea1d338dea75aadc0d9f87a1d7d7d5ef8",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/PreMultiplierSet.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/PreMultiplierSet.java",
+    "sha256": "26b94bb2cc12af3a993b66faa30cfb7356871be61e2070d345e76f92414bf6cd",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/registry/DamageChannelRegistry.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/registry/DamageChannelRegistry.java",
+    "sha256": "f4dddadab6300716a40c92843a895c8d5583bc3aa9ba4faed5ef3679f102c031",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/registry/PreMultiplierBucketRegistry.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/registry/PreMultiplierBucketRegistry.java",
+    "sha256": "01f21e3c244c818c0b1ff1c3bfc60c313ff37617eee43bfd2a9d0888cd2b8097",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/request/DamageAdmissionController.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/request/DamageAdmissionController.java",
+    "sha256": "0dda2771cd367cc2d7189e336bfb83f8be457662d816915f6a911ab47122fbba",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/request/DamageAdmissionLifecycle.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/request/DamageAdmissionLifecycle.java",
+    "sha256": "9501e6c4c61ec80dfd90252ab6036f2fb3c7f79aa18e5a667a87c7caf171aa5f",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/request/DamageAdmissionResult.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/request/DamageAdmissionResult.java",
+    "sha256": "e528603ab7d8a98d351220d47652b05fdad84d0d5505abba0ec0a78ef332db98",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/request/DamageRequestGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/request/DamageRequestGameTests.java",
+    "sha256": "03a211d8ae25c67049deab908ce795095d9eda79b753381c725aaade76942857",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/request/DamageRequestService.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/request/DamageRequestService.java",
+    "sha256": "c8fb73830cf4b38f530a81d901574429b26bd4a396a6e61d4e029d2c8955961c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/request/DamageRequestSubmissionTracker.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/request/DamageRequestSubmissionTracker.java",
+    "sha256": "5a23575643ab9506630b2cb00b5f91264e1f7d0186dab36b17d230b22fb9b834",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/request/DamageServerTickBudget.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/request/DamageServerTickBudget.java",
+    "sha256": "3eca18383673011d268e5706f4314fe67be30b64015cde2c71f136407522eb3f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/request/DamageTransactionActivity.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/request/DamageTransactionActivity.java",
+    "sha256": "c95b82fe2546b85d80d1bfa0cf5081c8a13a77ecef56c95cfb9fcfcae19cf733",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/DamageRuleExecutor.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/DamageRuleExecutor.java",
+    "sha256": "6ace90fa97fd0663ba49093070469a9276c5032ea3655be42284398b4971a965",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/DamageRuleSlotMatcher.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/DamageRuleSlotMatcher.java",
+    "sha256": "09ddce9c782a95cd0348e30fca1a37f23dddfdc351f027b536b38a93173cf305",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/DamageRuleStackingResolver.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/DamageRuleStackingResolver.java",
+    "sha256": "494467f9b6bc76ab39d7428d0f6fb6a9a7fad6d898cc247afec3118e84fc7ad3",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/DamageRuleStackingResult.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/DamageRuleStackingResult.java",
+    "sha256": "269e6062b0da215e150dc161be16945c0620aeeee906280e42ae24553d850339",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/DatapackDamageRuleReloadListener.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/DatapackDamageRuleReloadListener.java",
+    "sha256": "433278b468929ffd43357f2468afb91e896b37733c45240f6dff2c2654577d15",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/DatapackDamageRuleStore.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/DatapackDamageRuleStore.java",
+    "sha256": "b6293735b6b9f2b5963bf8351425235b49b49fe6d4d1de1228e032f35aba0eda",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/ExternalItemRuleSnapshot.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/ExternalItemRuleSnapshot.java",
+    "sha256": "950b736fbf84ffbe4fa8f5cfc82904c40641db66b4d37f53e5d52609049248bb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/ExternalItemRuleSources.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/ExternalItemRuleSources.java",
+    "sha256": "f25149991ee7392bdd074c67d53f168b757ed83a39aec87f524d9d24229eb722",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/StackDamageEntryCollector.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/StackDamageEntryCollector.java",
+    "sha256": "59d940a6901fd29214069b97fe8bbcd561af460fb2d8150d172adfa4c8adeca6",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/rule/StackingTrace.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/rule/StackingTrace.java",
+    "sha256": "070e1ce838015acca9c0e6103759f8ff7c0f3d7462d015f8d84923fbdbb3affe",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/security/DamageNexusItemSecurity.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/security/DamageModuleItemSecurity.java",
+    "sha256": "2154cd1e1676f0897bab792f42c838cf931018a2b3e90dfbb91d5e2afe5d7d22",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/security/DamageNexusItemSecurityGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/security/DamageModuleItemSecurityGameTests.java",
+    "sha256": "34629bdf2946eb1dee7ba046640922b25f8cab806dc78ab55317c5afd9d49cee",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementCallbacks.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementCallbacks.java",
+    "sha256": "47236f2110d1c34af160c1e0b3491e5d51210a4c364867d79b19d9a110a9856a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementCompletion.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementCompletion.java",
+    "sha256": "c4950a33641f1e910ec4d19537d0cb9d7379b111407cc1905279c61356c96942",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementCoordinator.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementCoordinator.java",
+    "sha256": "db1993ea062b038cd8de1b99e743b19789be87c7c8d088fcab3d2c527306fd49",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementDispatchScope.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementDispatchScope.java",
+    "sha256": "7117759bf9893bb1bb5e1a5c149d701b91248d729e308a99730add494142a139",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementEventPublisher.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementEventPublisher.java",
+    "sha256": "18a54317f60e18da114c7909e599aa133dd58303e39e8136efaecb912fbfc0d9",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementMixinStatus.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementMixinStatus.java",
+    "sha256": "b8db924699ff9b5073356877cb36abb03d1838f305d76ac9a458fe0688350796",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementPhase.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementPhase.java",
+    "sha256": "2e4b2e02459daef447c1f179be168c8ac45461bbd5ca309498ec613a3379a592",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementPublicationGate.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementPublicationGate.java",
+    "sha256": "ca8aaa9136b6b188c0595d373c50d8672aea0781df402a8e2ebdac2c89846c0d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementState.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementState.java",
+    "sha256": "c0c0ed8aa52c729fa7860188c3a1e33c9d2de4e429fc2dc4b815c73b7a16de5b",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/settlement/DamageSettlementTracker.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/settlement/DamageSettlementTracker.java",
+    "sha256": "a5ce172526783c343dbd34b2d26aca9b316aa6a27193154af8f54b8e8911a04a",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/template/DamageTemplateDefinitionValidator.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/template/DamageTemplateDefinitionValidator.java",
+    "sha256": "b0e5baad66bf079dac3ba4cb46d082cccf1c2f0f8af876b9d5081736b55c49aa",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/template/DamageTemplateDiagnostics.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/template/DamageTemplateDiagnostics.java",
+    "sha256": "744fd63cb7ee8f7ecc07a7518c382cd15cb5515fe2f7cfa9d82d7ac63a324d31",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/template/DamageTemplateLimits.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/template/DamageTemplateLimits.java",
+    "sha256": "54b5bb538c90576b330b5084f09c11ab684522d2c7526381541f6a255f28479f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/template/DamageTemplateRegistry.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/template/DamageTemplateRegistry.java",
+    "sha256": "27cf2ca576ac3513b65be2d535f390ff8298a1d68b7c7cb4e3172e7bece70101",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/template/DamageTemplateSnapshot.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/template/DamageTemplateSnapshot.java",
+    "sha256": "7f7fa702f37c0e378d6f4f1e348247abd2bcc15cc8ff29cebeb19727510d2cee",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/template/DatapackDamageTemplateReloadListener.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/template/DatapackDamageTemplateReloadListener.java",
+    "sha256": "3d53897150e682c5ec8d1735c13c5c029e565daf6a5015130691bd100ce7c622",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/trace/DamageMutationType.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/trace/DamageMutationType.java",
+    "sha256": "c76a806fe5b66f6f58d853cae0a0aca7c9944c06d2c65053b9057e305c4ae6ba",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/trace/DamageNexusTransaction.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/trace/DamageModuleTransaction.java",
+    "sha256": "8319f96b2a4c1f36b52346ebbe66020150922bc8b8a4e0f73b7b42ae30cc5f9c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/trace/DamageNexusTransactionTracker.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/trace/DamageModuleTransactionTracker.java",
+    "sha256": "7905cfffb6abd65b84b3a3e6adb6af8ab23baa3c0e29f27882776e794360bf07",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/trace/DamageObservationSnapshot.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/trace/DamageObservationSnapshot.java",
+    "sha256": "f3807e65d50b76486289a844e034ee4ee7533a4056379a443584e1ec4fd1dd93",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/trace/DamageTransactionQueue.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/trace/DamageTransactionQueue.java",
+    "sha256": "d9a57864e0f24356dede14bfa766824e63b6c9ec52698548e6ac95238b8085fb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/trace/PostSettlementClassifier.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/trace/PostSettlementClassifier.java",
+    "sha256": "0c59b412ff777669503877294e67c0519470f37f7a54dca8b00b299bbfc2222e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/trace/PostSettlementObservation.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/trace/PostSettlementObservation.java",
+    "sha256": "36857f2bd5b8cca26f3852fd280ccf201f4aecf7c0c60a9b63042e6a2a8c40fe",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/trace/RuleSkipReason.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/trace/RuleSkipReason.java",
+    "sha256": "71d15d7663c69d6b61e343ccb74366bb85e5a353fcd78e6104e1cb74d1bbac18",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/util/JvmFatalErrors.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/util/JvmFatalErrors.java",
+    "sha256": "6771e0fc8b8a2483414cf7ddd6b830029621b2d35360f996d361d478669382ee",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/util/StrictCallbackFailure.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/util/StrictCallbackFailure.java",
+    "sha256": "a21b43b3dff82fe497be7fdc2cc0b7e2bfd16ce1f2c5dece14a35c093d2f4546",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/DamageNexus.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/DamageModule.java",
+    "sha256": "5c36b51ccf9962fe74de09065d054cc8b4cce7500d7644ae21ad3c22e9d24af6",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/DamageNexusStartupSelfCheck.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/DamageModuleStartupSelfCheck.java",
+    "sha256": "6cb24906eef39d65bab68fb9ecc294f470a933592528a2dd9afb5c1e43e07aa0",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/BoundedDiagnosticLimiter.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/BoundedDiagnosticLimiter.java",
+    "sha256": "f6d3b3bcf946305c138deff95882e2b1d70ca26245ac2fb235ecf66706f2f874",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CombatCalculationLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CombatCalculationLog.java",
+    "sha256": "48e26e51d2dc472d19a0987685373d20a8a79e953ccde92b469fb10f702bfc1d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CombatContributionLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CombatContributionLog.java",
+    "sha256": "0d8720ffd3a86d837d2052beabe7aeccf7d64843e2ad41561f1f2a14c70cdb1f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CombatMutationLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CombatMutationLog.java",
+    "sha256": "84f0d1cb10c0b6c081d6161ad910b5f82114b81726b23f5631483c3eb4f67e3c",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CombatPipelineLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CombatPipelineLog.java",
+    "sha256": "0994d397c60f170f9915ac63448c4160e78d09d57bea68e81157cf1c0822a704",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CombatRuleLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CombatRuleLog.java",
+    "sha256": "841890427140a5decd011fd7078d7d906e1abcad46a19226f7a73db63d0247d6",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CombatTrace.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CombatTrace.java",
+    "sha256": "5dafa4d3cd331c026cfb52491c435cdadf7332d3c3596887293765fc6c715673",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CombatTraceFactory.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CombatTraceFactory.java",
+    "sha256": "ce74c3b0d8b4cf23e5afd795a330315a9a45f8ec62e50bff1b99faf48edbb3e2",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CombatTraceState.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CombatTraceState.java",
+    "sha256": "324adb08d43ae5c9b9740d5764e43990c5422df0b6d3cbb2b3d66656485af34f",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CombatTransactionLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CombatTransactionLog.java",
+    "sha256": "8426578043bd2ed5790ebaf639c5d5cedbdd15de29b9cefadd79ceb6b809bfd3",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/CompatibilityDiagnosticRateLimiter.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/CompatibilityDiagnosticRateLimiter.java",
+    "sha256": "579180c62011f5e1d0d38748b7bac1ece0eccdc279b5cf7f7c85a19174683420",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/DamageAdmissionDiagnosticsLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/DamageAdmissionDiagnosticsLog.java",
+    "sha256": "ee735c4de99dcc26216f4f1f001a8aafd556b27645c43022b61fb4e6bd1333ea",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/DamageAttributionDiagnosticsLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/DamageAttributionDiagnosticsLog.java",
+    "sha256": "187ed6e5c72c1059d142688e454a07e0ded7dbad475065eae67dfcb736bde198",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/DamageNexusDiagnosticLifecycle.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/DamageModuleDiagnosticLifecycle.java",
+    "sha256": "d346098094513ea815e33e250be99347c663400ef0cd9f663c51698e08f38c88",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/DamageNexusDiagnosticState.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/DamageModuleDiagnosticState.java",
+    "sha256": "50fc34c58a9a78f6445ec7aa984a83b237ea4c66a958dd13236cb6511994b8bf",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/DamageNexusLifecycleLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/DamageModuleLifecycleLog.java",
+    "sha256": "e8f41a8d11b4f49a35636cf40ae0da845f1375e658de858552aad672f6d6f182",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/DamageNexusLogKind.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/DamageModuleLogKind.java",
+    "sha256": "8d9e2faf87cc5dd75073f4b4679cc1b929cdd1f68654c30897e0a424a6ecfcd9",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/DamageNexusLogSink.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/DamageModuleLogSink.java",
+    "sha256": "49473e7c0d3f4f89ef5466f0c3af6187ded66c4667ec127538d7758877c1081e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/DiagnosticTextSanitizer.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/DiagnosticTextSanitizer.java",
+    "sha256": "d8d0d1073eff469a6d6989b40e8d31ca10eb1bfeb9ff8f7e735d716c0bcc985b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/ExternalItemRuleSourceDiagnosticsLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/ExternalItemRuleSourceDiagnosticsLog.java",
+    "sha256": "06050a3332d81d762821f129278886f697580576dc8c6766095e4d7ce90c8ca7",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/NoOpCombatTrace.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/NoOpCombatTrace.java",
+    "sha256": "f0c26ef855bb51244ca2b1b8561afcb57799fd3096ecf27d8886c7f447931ceb",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/PostDamageDiagnosticsLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/PostDamageDiagnosticsLog.java",
+    "sha256": "2fde6432ed6191a61def3dfc3c5d38bc73ae90bbf8261be813c49310cb98e4b1",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/RuleExecutionDiagnosticsLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/RuleExecutionDiagnosticsLog.java",
+    "sha256": "3cadbe9937ceece1d82101c061feba3f2cad324e126d3057d6727a9c03768e0a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/Slf4jCombatTrace.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/Slf4jCombatTrace.java",
+    "sha256": "7807bcd28e6d1ec95ec7f2895ada5dd1b74f711a62d5a0f1b5c9041852733adf",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/TransactionDiagnosticsLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/TransactionDiagnosticsLog.java",
+    "sha256": "9b80e072a863c4588e83bae83afcf07141c421bc1bf8ad2688375740141d5d23",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/diagnostics/logging/VanillaBridgeDiagnosticsLog.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/diagnostics/logging/VanillaBridgeDiagnosticsLog.java",
+    "sha256": "7cf95a28ab9f68a40c404b11ead1f5f0ea3e1a89fcd0eedb83295cc93d99aab2",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyAttributeEdit.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyAttributeEdit.java",
+    "sha256": "2b25cc9ac6bc81aadeff34bf344cf585fab8af0dc3b98facd38b7694529a0e0b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyAttributeGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyAttributeGameTests.java",
+    "sha256": "942d676251e1d0c08823c6bd542116e062c97ae9f0ac883f0c767fdbcf58fd55",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyAttributeProtocol.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyAttributeProtocol.java",
+    "sha256": "3ffdc305664d5271a87b364eaaafb6ea456202c655aad535eca57002f9453256",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyAttributes.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyAttributes.java",
+    "sha256": "6e351ce216b8cf96f410f5b914dafdf6971797dbc6baeb561aa362d776647f5a",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyAttributeService.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyAttributeService.java",
+    "sha256": "046da7fd0326fdae5e8ff6d1377c5400d7ff08921b1c6316330be93d2211e667",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyAttributeSnapshot.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyAttributeSnapshot.java",
+    "sha256": "75506be698088b704423babd3b451a2716eea55bc6648ca07e6410ab56a4493d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyAttributeView.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyAttributeView.java",
+    "sha256": "e474a3f55dab9882bc9264668b95435180fa4d3ad10efd6fed474070b79c7bd5",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyEntity.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyEntity.java",
+    "sha256": "635feb13ea3470d9cfa27cd3cfcfb1d0690f33fde711daabce1078fe87b1b504",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyGameTests.java",
+    "sha256": "79169120b920945be89b6e4bb285825f65610712f34b1917c426fa33ed42b97b",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyTestAttribute.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyTestAttribute.java",
+    "sha256": "f90440bdf9bd7e00b0addb4f511bddcbe45ecf999bc961ea18e771dbae8700b5",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/event/neoforge/AttributeHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/event/neoforge/AttributeHandler.java",
+    "sha256": "7b2b9b606959ea9eba477b59741c7c64e8d9fe0908788c1f6bf1a46a91e65e82",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/event/neoforge/CaptureCleanupHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/event/neoforge/CaptureCleanupHandler.java",
+    "sha256": "0a6c9a9251298b0056fbf4cf108391b6fdf36d7b835d45a633229ccbe26138fc",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/event/neoforge/ImmortalTestMobLifecycle.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/event/neoforge/ImmortalTestMobLifecycle.java",
+    "sha256": "cced5914e6b0de3be4e5859a53a69f631280246adfa2beee05b6fbbfca651d34",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/event/neoforge/IncomingDamageHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/event/neoforge/IncomingDamageHandler.java",
+    "sha256": "3833b5d881da950b4ee6c12340adb5c2bb3c062270db7b96cb07268e919456a3",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/event/neoforge/PostDamageHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/event/neoforge/PostDamageHandler.java",
+    "sha256": "5f4bd94bcb5d292f3153fc74e229e6a95963aa3a5be3a24d1a5a6b2b9a70b6da",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/event/neoforge/PreDamageTransactionHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/event/neoforge/PreDamageTransactionHandler.java",
+    "sha256": "e24c5dcf44995a6c7322baf9c77cfd97c7e320816e2c225224edf5d2ad1fd02f",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/event/neoforge/VanillaCritHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/event/neoforge/VanillaCritHandler.java",
+    "sha256": "ae1617f87ae77d0372830df0dd49800c96c50654513ff5192be317b9a3efe5e3",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/menu/DamageDummyMenu.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/menu/DamageDummyMenu.java",
+    "sha256": "78b05dbc9740e9551d0769706d364dde60b0a56cd6bb4c1d00fdc10530ccd056",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/mixin/AbstractArrowMixin.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/mixin/AbstractArrowMixin.java",
+    "sha256": "db1b3967fac2a777808f417f7e9d72dbe7b2e618282392ce5de8db16a565e350",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/mixin/EnchantmentHelperMixin.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/mixin/EnchantmentHelperMixin.java",
+    "sha256": "7d87c65373c3a75104cb038fe78fd321fe0489a7ef192e2b920f3c6b97a0b53b",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/mixin/KineticWeaponMixin.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/mixin/KineticWeaponMixin.java",
+    "sha256": "8131acc91464eb27c5c341b1e06855f5fbc760c07cb7af2d8957fb51079a4271",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/mixin/LivingEntityDamageSettlementMixin.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/mixin/LivingEntityDamageSettlementMixin.java",
+    "sha256": "95bcd252acb990b03c01045f7be14ea3f90647f749cc1a4b9668e851eed0d45b",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/mixin/MaceItemMixin.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/mixin/MaceItemMixin.java",
+    "sha256": "2fe813394aa10cbba02634a70799faff7415b55f9cf370ef2f2a48056466eadb",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/mixin/ServerGamePacketListenerImplMixin.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/mixin/ServerGamePacketListenerImplMixin.java",
+    "sha256": "0ba2d11f36caba5c48a99a798a066e6a6f33f3e8d4ee8906a244bd35c92a6959",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/network/DamageDummyAttributePayloadHandler.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/network/DamageDummyAttributePayloadHandler.java",
+    "sha256": "110a67a6efd2ac25ded0c742f66ac762ced446bb69c9a843720f86eec0be3d3b",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/network/DamageNexusNetwork.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/network/DamageModuleNetwork.java",
+    "sha256": "166fceec93dc152180c8d65cd26a369423d8233872315b1772e6e7c1dd19d4a3",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/network/payload/DamageDummyApplyAttributesPayload.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/network/payload/DamageDummyApplyAttributesPayload.java",
+    "sha256": "8980c68bfafc67a2078d110d02993ce53f3c26bcb286b4c4290ef406b203ab18",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/network/payload/DamageDummyAttributesPayload.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/network/payload/DamageDummyAttributesPayload.java",
+    "sha256": "d155f3e1e2e46c86a0d2590722b9a1612bc2bb17f2bb2169cf03b8c644d555c5",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/network/payload/DamageNumberPayload.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/network/payload/DamageNumberPayload.java",
+    "sha256": "f7036280cf0da8121e39f661e44e2ab586f00579d6b1d95c2a89927e99e61b97",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/presentation/damage/DamageNumberBroadcaster.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/presentation/damage/DamageNumberBroadcaster.java",
+    "sha256": "6d2ff14c0bbf01f3737426c9e235e1a57592eea3477ed8e7bb30cb7c4150a26a",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/DamagePhaseProcessorRegistry.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/registry/DamagePhaseProcessorRegistry.java",
+    "sha256": "08da61ddbe6a5c3d5b8014cffd908c0122ec9f40adff8779e180b327d3fc0f7e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModAttachments.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModAttachments.java",
+    "sha256": "0afab4a016f97e17b908e2c739ae7ada0133403faf01a84f5b999c60ba00294f",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModAttributes.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModAttributes.java",
+    "sha256": "4f1580dd647cacdd3793d1eca6acde9ea694c7c60ac003a125c40f0f79d752b5",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModBlockEntityTypes.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModBlockEntityTypes.java",
+    "sha256": "925cec2503c625ea2616d161ee3f260674ad011de8da793f728d9d88db3c8323",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModBlocks.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModBlocks.java",
+    "sha256": "baff5e46dc30f85c54573f7d56666a10754c571b32d8bb2cc063fd7b23dea05b",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModCreativeTabContents.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModCreativeTabContents.java",
+    "sha256": "e65deb3f2ae4e40362c87c89c7051891803adbcda12a6c8301b43972d6af9b3f",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModDamageProcessors.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModDamageProcessors.java",
+    "sha256": "2a20d580259d6bc81be840439f0084725301eacfd501108928e1870039dcb3dc",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModDataComponents.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModDataComponents.java",
+    "sha256": "6a61a7fec3f1ab2201b8d2fcdca0a686912be9deda7e0c9d37feff8f6404ff2b",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModEntityAttributes.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModEntityAttributes.java",
+    "sha256": "502a476c92e3d8aac291874d3c77a5d8e500239fe8d6a37fc2fc3805c980a866",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModEntityTypes.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModEntityTypes.java",
+    "sha256": "6797473449bcdd2828db0deacdb9bedc8529c521e480b4a22fbba5ec222f259a",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModItems.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModItems.java",
+    "sha256": "30d8b9114506ca50f8e6069eccd1e219e0bd52aa20068366f9c4b59edf7e5ba0",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/ModMenuTypes.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/registry/ModMenuTypes.java",
+    "sha256": "fbf8931b872f6156aa09609944d83f8d05d8fd7617834cc7a3b37f53961e8e86",
+    "boundary": "NeoForge API / 26.1.2 Mixin"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/PreMultiplierBuckets.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/registry/PreMultiplierBuckets.java",
+    "sha256": "14fd5e00a92ada4377f94f4929b386fe0384613b838607be6d3cc7a63d5b1c2b",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/rule/DamageRuleConditionTypes.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/registry/rule/DamageRuleConditionTypes.java",
+    "sha256": "691c27293b4e5d1cf8fee993ceed3c5ffa254a37769cac51ab8ee6aa27861196",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/rule/DamageRuleOperationTypes.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/registry/rule/DamageRuleOperationTypes.java",
+    "sha256": "eee65e7b13a7dddd9458fa8f79c5be961c006f7a43bcc57821f168ababba7cf7",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/registry/rule/DamageRuleProviders.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/registry/rule/DamageRuleProviders.java",
+    "sha256": "147ea57a980fad92e57035b2474bd9d4de222f2b75a787d8642c1cddfed0d149",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/util/EnchantmentStackUtil.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/util/EnchantmentStackUtil.java",
+    "sha256": "8272cbe1f023225df24a8606966667bc81291d76264dfdbf97e46dfee4bdc46e",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/util/EntityConditionUtil.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/util/EntityConditionUtil.java",
+    "sha256": "eeddce953ca6cabe7671ffe61ef7a28cfddcd75c05564f2cb3fb5c5ba2066d20",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/util/EntityTypeTagUtil.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/util/EntityTypeTagUtil.java",
+    "sha256": "45f100ee928bf6085341ecc96b410e25038ae484df2ccc85247134e33595654d",
+    "boundary": "shared damage logic"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/util/IdentifierText.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/util/IdentifierText.java",
+    "sha256": "cb8b81cb93b8706fe4bc85d80ad03df3a60354ab5933c755ddc4268c74408b3c",
+    "boundary": "shared damage logic"
+  }
+]

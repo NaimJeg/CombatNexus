@@ -1,0 +1,37 @@
+// IDE/standalone reference classpath. Not a release jar or target dependency.
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+def shared = new Properties()
+file('../gradle.properties').withInputStream { shared.load(it) }
+file('../targets/neoforge-26.1.2/gradle.properties').withInputStream { shared.load(it) }
+shared.each { key, value -> ext.set(key.toString(), value.toString()) }
+group = mod_group_id
+version = mod_version
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+neoForge { version = neoforge_261_version }
+repositories { mavenCentral() }
+// Resolve concrete reference adapters without duplicating their classes.
+sourceSets {
+    main.java.srcDir '../targets/neoforge-26.1.2/src/main/java'
+    main.resources.srcDir '../targets/neoforge-26.1.2/src/main/resources'
+    test.java.srcDir '../targets/neoforge-26.1.2/src/test/java'
+    test.resources.srcDir '../targets/neoforge-26.1.2/src/test/resources'
+}
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.12.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('processResources', ProcessResources).configure {
+    inputs.properties shared
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand shared + [minecraft_version: neoforge_261_minecraft_version,
+                         neoforge_version_range: neoforge_261_version_range]
+    }
+}
+tasks.named('jar') { enabled = false }
+ext.baselineRoot = file('..')
+apply from: '../gradle/target-conventions/damage-tests.gradle'

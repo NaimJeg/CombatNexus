@@ -1,0 +1,9 @@
+{
+  "channel": "combatnexus:cold",
+  "trigger_tags": [
+    "combatnexus:is_cold"
+  ],
+  "resistance_attribute": "combatnexus:resistance_cold",
+  "affected_by_armor": false,
+  "priority": 100
+}

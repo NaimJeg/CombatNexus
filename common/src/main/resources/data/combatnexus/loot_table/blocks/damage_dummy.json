@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "combatnexus:damage_dummy"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "combatnexus:blocks/damage_dummy"
+}

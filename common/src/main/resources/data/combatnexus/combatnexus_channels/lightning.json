@@ -1,0 +1,9 @@
+{
+  "channel": "combatnexus:lightning",
+  "trigger_tags": [
+    "combatnexus:is_lightning"
+  ],
+  "resistance_attribute": "combatnexus:resistance_lightning",
+  "affected_by_armor": false,
+  "priority": 100
+}

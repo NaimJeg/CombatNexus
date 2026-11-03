@@ -1,0 +1,29 @@
+// Invoke each target's own wrapper: Gradle/JDK requirements differ.
+def selected = providers.gradleProperty('target').getOrElse('neoforge-26.1.2')
+def all = providers.gradleProperty('allTargets').map { it.toBoolean() }.getOrElse(false)
+def dirs = file('targets').listFiles().findAll { it.isDirectory() }.sort { it.name }
+def available = dirs.collectEntries { [(it.name): it] }
+if (!available.containsKey(selected)) {
+    throw new GradleException("Unknown target '${selected}'. Available: ${available.keySet()}")
+}
+def enabled = dirs.findAll {
+    def ci = new Properties()
+    new File(it, 'ci.properties').withInputStream { ci.load(it) }
+    ci.getProperty('ci.enabled', 'true').toBoolean()
+}
+def buildTasks = available.collectEntries { name, directory ->
+    [(name): tasks.register('build_' + name.replaceAll('[^a-zA-Z0-9]', '_'), Exec) {
+        group = 'build'
+        workingDir directory
+        if (System.getProperty('os.name').toLowerCase().contains('windows')) {
+            commandLine 'cmd', '/c', 'gradlew.bat', 'build', '--console', 'plain', '--no-daemon'
+        } else {
+            commandLine 'sh', './gradlew', 'build', '--console', 'plain', '--no-daemon'
+        }
+    }]
+}
+tasks.register('build') {
+    group = 'build'
+    description = 'Builds NeoForge 26.1.2 by default; allTargets builds enabled targets.'
+    dependsOn(all ? enabled.collect { buildTasks[it.name] } : [buildTasks[selected]])
+}

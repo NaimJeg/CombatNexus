@@ -1,0 +1,9 @@
+{
+  "channel": "combatnexus:fire",
+  "trigger_tags": [
+    "combatnexus:is_fire"
+  ],
+  "resistance_attribute": "combatnexus:resistance_fire",
+  "affected_by_armor": false,
+  "priority": 100
+}

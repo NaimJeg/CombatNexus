@@ -1,0 +1,35 @@
+{
+  "replace": false,
+  "values": [
+    "#combatnexus:is_melee",
+    "#combatnexus:is_projectile",
+    "#combatnexus:is_explosion",
+    "#combatnexus:is_mace_smash",
+    "#combatnexus:is_spear_attack",
+    "#minecraft:is_fall",
+    {
+      "id": "minecraft:falling_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:falling_anvil",
+      "required": false
+    },
+    {
+      "id": "minecraft:falling_stalactite",
+      "required": false
+    },
+    {
+      "id": "minecraft:stalagmite",
+      "required": false
+    },
+    {
+      "id": "minecraft:thorns",
+      "required": false
+    },
+    {
+      "id": "minecraft:generic",
+      "required": false
+    }
+  ]
+}

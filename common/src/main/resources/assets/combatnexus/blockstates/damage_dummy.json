@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "combatnexus:block/damage_dummy"
+    },
+    "facing=east": {
+      "model": "combatnexus:block/damage_dummy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "combatnexus:block/damage_dummy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "combatnexus:block/damage_dummy",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "channel": "combatnexus:wither",
+  "trigger_tags": [
+    "combatnexus:is_wither"
+  ],
+  "resistance_attribute": "combatnexus:resistance_wither",
+  "affected_by_armor": false,
+  "priority": 90
+}

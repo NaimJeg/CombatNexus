@@ -1,0 +1,10 @@
+# Copy this file to .github/CODEOWNERS and replace placeholders with real accounts.
+
+/common/ @core-maintainer
+/targets/neoforge-1.21.1/ @neoforge-1211-maintainer
+/targets/neoforge-26.1.2/ @neoforge-261-maintainer
+/build.gradle @build-maintainer
+/settings.gradle @build-maintainer
+/gradle.properties @build-maintainer
+/docs/ @docs-maintainer
+/.github/ @build-maintainer
