@@ -1,0 +1,90 @@
+[
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageConditionalItemGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/command/DamageConditionalItemGameTests.java",
+    "sha256": "d1908af9d65b7797f0692bec1c331f37d6ad40be7806cfcf6cb0c119640e1faf",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageConditionalItemGameTests.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageItemClearGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/command/DamageItemClearGameTests.java",
+    "sha256": "5d51812dd1ee7709ae7fa157f5a215ef7bae0942367d846b5324b9f482c4defd",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageItemClearGameTests.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/DamageNexusSecurityGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/command/DamageModuleSecurityGameTests.java",
+    "sha256": "c6c9fcd6eb010eef3f1580988ff1482f83a06c904d7e6670cfb8a8e932d675f0",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/command/DamageModuleSecurityGameTests.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/command/TestMobExhibitGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/command/TestMobExhibitGameTests.java",
+    "sha256": "b8bbdf8b732de7c600d30b0bd6754033128f2b4864f337c313ce66684c920af9",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/command/TestMobExhibitGameTests.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/gametest/GameTestCodecVerifier.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/combat/damage/core/gametest/GameTestCodecVerifier.java",
+    "sha256": "e1aa1bf349e7ba133d6608592de82071e1ad5ec3966c196330e8f796a0127d33",
+    "boundary": "shared damage logic",
+    "previous_destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/gametest/GameTestCodecVerifier.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/gametest/GameTestServerPlayerFactory.java",
+    "destination": "common/src/main/java/io/github/naimjeg/combatnexus/combat/damage/core/gametest/GameTestServerPlayerFactory.java",
+    "sha256": "8832122fc500baf778689ff29cd7fbf0c7346bf075f796e4e11258cd3bfc29d6",
+    "boundary": "shared damage logic",
+    "previous_destination": "common/src/main/java/io/github/naimjeg/combatnexus/damage/core/gametest/GameTestServerPlayerFactory.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/request/DamageRequestGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/core/request/DamageRequestGameTests.java",
+    "sha256": "03a211d8ae25c67049deab908ce795095d9eda79b753381c725aaade76942857",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/request/DamageRequestGameTests.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/core/security/DamageNexusItemSecurityGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/core/security/DamageModuleItemSecurityGameTests.java",
+    "sha256": "34629bdf2946eb1dee7ba046640922b25f8cab806dc78ab55317c5afd9d49cee",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/core/security/DamageModuleItemSecurityGameTests.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyAttributeGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/entity/DamageDummyAttributeGameTests.java",
+    "sha256": "942d676251e1d0c08823c6bd542116e062c97ae9f0ac883f0c767fdbcf58fd55",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyAttributeGameTests.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyGameTests.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/entity/DamageDummyGameTests.java",
+    "sha256": "79169120b920945be89b6e4bb285825f65610712f34b1917c426fa33ed42b97b",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyGameTests.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/entity/DamageDummyTestAttribute.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/entity/DamageDummyTestAttribute.java",
+    "sha256": "f90440bdf9bd7e00b0addb4f511bddcbe45ecf999bc961ea18e771dbae8700b5",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/entity/DamageDummyTestAttribute.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "priority": 0,
+  "duration_ticks": 200,
+  "components": [
+    {
+      "type": "combatnexus:lethal_protection"
+    }
+  ]
+}

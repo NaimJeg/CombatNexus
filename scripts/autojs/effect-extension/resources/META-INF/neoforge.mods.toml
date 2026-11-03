@@ -1,0 +1,7 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+[[mods]]
+modId="combatnexus_effect_probe"
+version="1.0.0"
+displayName="CombatNexus AutoJS Effect Extension"

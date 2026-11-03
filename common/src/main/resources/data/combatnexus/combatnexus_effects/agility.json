@@ -1,0 +1,21 @@
+{
+  "level": 0,
+  "stacking": "combatnexus:replace",
+  "category": "BENEFICIAL",
+  "dispellable": true,
+  "attributes": [
+    {
+      "attribute": "minecraft:movement_speed",
+      "modifier": "combatnexus:agility",
+      "amount": 0.1,
+      "operation": "ADD_MULTIPLIED_TOTAL"
+    }
+  ],
+  "behaviors": [],
+  "priority": 0,
+  "restrictions": [],
+  "lifetime": {
+    "kind": "TIMED",
+    "ticks": 200
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "health_per_second": 1,
+  "damage_delay_ticks": 100,
+  "respects_natural_regeneration_rule": true,
+  "requires_out_of_combat": true,
+  "duration_ticks": 200
+}

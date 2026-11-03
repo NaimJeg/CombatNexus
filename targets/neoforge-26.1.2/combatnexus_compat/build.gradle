@@ -1,0 +1,33 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev'
+}
+
+group = 'io.github.naimjeg.combatnexus'
+version = rootProject.version
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+neoForge.version = rootProject.neoforge_261_version
+
+repositories {
+    maven {
+        url = 'https://cursemaven.com'
+        content { includeGroup 'curse.maven' }
+    }
+}
+dependencies {
+    // Deliberately depend on classes, never the Jar that embeds this project.
+    compileOnly files(rootProject.sourceSets.main.output.classesDirs)
+    compileOnly 'curse.maven:apotheosis-313970:9054740'
+    compileOnly 'curse.maven:apothic-attributes-898963:9076588'
+    compileOnly 'curse.maven:placebo-283644:8502256'
+}
+tasks.named('compileJava') { dependsOn rootProject.tasks.named('compileJava') }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('processResources') {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/neoforge.mods.toml') { expand version: project.version }
+}
+tasks.named('jar') {
+    from(rootProject.file('../../LICENSE'))
+    manifest.attributes 'Automatic-Module-Name': 'io.github.naimjeg.combatnexus.compat'
+}

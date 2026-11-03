@@ -1,0 +1,14 @@
+{
+  "priority": 0,
+  "duration_ticks": 200,
+  "components": [
+    {
+      "type": "combatnexus:reflection",
+      "ratio": 0.2,
+      "limit": {
+        "trigger_scope": "OPERATION",
+        "maximum_triggers": 1
+      }
+    }
+  ]
+}

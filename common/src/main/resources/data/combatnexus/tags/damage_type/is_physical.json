@@ -30,6 +30,7 @@
     {
       "id": "minecraft:generic",
       "required": false
-    }
+    },
+    "#neoforge:is_physical"
   ]
 }

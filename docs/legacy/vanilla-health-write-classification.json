@@ -1,0 +1,224 @@
+{
+  "artifact": "minecraft-patched-26.1.2.126-sources.jar",
+  "sha256": "4e7229dbe6626c55cb584edd00701e94fdb1ecd7e5a34a97cde5475a58e3e68a",
+  "scope": "Direct .setHealth( calls in net/minecraft Java sources; line numbers refer to this artifact.",
+  "calls": [
+    {
+      "source": "net/minecraft/client/player/LocalPlayer.java",
+      "line": 352,
+      "call": "this.setHealth(newHealth);",
+      "category": "client_sync",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/client/player/LocalPlayer.java",
+      "line": 359,
+      "call": "this.setHealth(newHealth);",
+      "category": "client_sync",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/client/player/LocalPlayer.java",
+      "line": 364,
+      "call": "this.setHealth(newHealth);",
+      "category": "client_sync",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/client/player/LocalPlayer.java",
+      "line": 772,
+      "call": "this.setHealth(this.getMaxHealth());",
+      "category": "client_sync",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/gametest/framework/GameTestHelper.java",
+      "line": 337,
+      "call": "entity.setHealth(0.25F);",
+      "category": "vanilla_test_fixture",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/gametest/framework/GameTestHelper.java",
+      "line": 342,
+      "call": "entity.setHealth(0.25F);",
+      "category": "vanilla_test_fixture",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/server/level/ServerPlayer.java",
+      "line": 1710,
+      "call": "this.setHealth(oldPlayer.getHealth());",
+      "category": "respawn_or_copy",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/server/level/ServerPlayer.java",
+      "line": 1720,
+      "call": "this.setHealth(this.getMaxHealth());",
+      "category": "respawn_or_copy",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/server/players/PlayerList.java",
+      "line": 443,
+      "call": "player.setHealth(player.getHealth());",
+      "category": "login_sync",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/LivingEntity.java",
+      "line": 288,
+      "call": "this.setHealth(this.getMaxHealth());",
+      "category": "initialization",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/LivingEntity.java",
+      "line": 812,
+      "call": "this.setHealth(input.getFloatOr(\"Health\", this.getMaxHealth()));",
+      "category": "load",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/LivingEntity.java",
+      "line": 1155,
+      "call": "this.setHealth(currentMaxHealth);",
+      "category": "maximum_clamp",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/LivingEntity.java",
+      "line": 1179,
+      "call": "this.setHealth(health + heal);",
+      "category": "healing",
+      "owner": "healing"
+    },
+    {
+      "source": "net/minecraft/world/entity/LivingEntity.java",
+      "line": 1448,
+      "call": "this.setHealth(1.0F);",
+      "category": "death_protection",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/LivingEntity.java",
+      "line": 2013,
+      "call": "this.setHealth(this.getHealth() - var10);",
+      "category": "damage",
+      "owner": "native_with_damage_journal"
+    },
+    {
+      "source": "net/minecraft/world/entity/LivingEntity.java",
+      "line": 2121,
+      "call": "this.setHealth(0.0F);",
+      "category": "death_stage",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/animal/wolf/Wolf.java",
+      "line": 429,
+      "call": "this.setHealth(40.0F);",
+      "category": "taming_maximum_transition",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/boss/enderdragon/EnderDragon.java",
+      "line": 100,
+      "call": "this.setHealth(this.getMaxHealth());",
+      "category": "initialization_or_sync",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/boss/enderdragon/EnderDragon.java",
+      "line": 174,
+      "call": "this.setHealth(this.getHealth());",
+      "category": "initialization_or_sync",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/boss/enderdragon/EnderDragon.java",
+      "line": 386,
+      "call": "this.setHealth(this.getHealth() + 1.0F);",
+      "category": "crystal_healing",
+      "owner": "healing"
+    },
+    {
+      "source": "net/minecraft/world/entity/boss/enderdragon/EnderDragon.java",
+      "line": 492,
+      "call": "this.setHealth(1.0F);",
+      "category": "death_stage",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/boss/enderdragon/phases/DragonDeathPhase.java",
+      "line": 42,
+      "call": "this.dragon.setHealth(1.0F);",
+      "category": "death_stage",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/boss/enderdragon/phases/DragonDeathPhase.java",
+      "line": 44,
+      "call": "this.dragon.setHealth(0.0F);",
+      "category": "death_stage",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/boss/wither/WitherBoss.java",
+      "line": 87,
+      "call": "this.setHealth(this.getMaxHealth());",
+      "category": "initialization",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/boss/wither/WitherBoss.java",
+      "line": 367,
+      "call": "this.setHealth(this.getMaxHealth() / 3.0F);",
+      "category": "initialization",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/decoration/ArmorStand.java",
+      "line": 367,
+      "call": "this.setHealth(health);",
+      "category": "native_special_damage",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/monster/Slime.java",
+      "line": 101,
+      "call": "this.setHealth(this.getMaxHealth());",
+      "category": "initialization",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/monster/creaking/Creaking.java",
+      "line": 250,
+      "call": "this.setHealth(0.0F);",
+      "category": "death_stage",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/monster/zombie/Zombie.java",
+      "line": 561,
+      "call": "this.setHealth(this.getMaxHealth());",
+      "category": "initialization",
+      "owner": "native"
+    },
+    {
+      "source": "net/minecraft/world/entity/player/Player.java",
+      "line": 801,
+      "call": "this.setHealth(this.getHealth() - var8);",
+      "category": "damage",
+      "owner": "native_with_damage_journal"
+    },
+    {
+      "source": "net/minecraft/world/level/block/entity/CreakingHeartBlockEntity.java",
+      "line": 318,
+      "call": "creaking.setHealth(0.0F);",
+      "category": "death_stage",
+      "owner": "native"
+    }
+  ]
+}

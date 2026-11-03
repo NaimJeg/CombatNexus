@@ -1,0 +1,16 @@
+{
+  "priority": 0,
+  "duration_ticks": 200,
+  "components": [
+    {
+      "type": "combatnexus:overflow_shield",
+      "ratio": 1,
+      "capacity": 20,
+      "duration_ticks": 100,
+      "limit": {
+        "trigger_scope": "OPERATION",
+        "maximum_triggers": 1
+      }
+    }
+  ]
+}

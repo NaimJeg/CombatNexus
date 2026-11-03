@@ -1,9 +1,4 @@
 {
   "replace": false,
-  "values": [
-    {
-      "id": "minecraft:spear",
-      "required": false
-    }
-  ]
+  "values": []
 }

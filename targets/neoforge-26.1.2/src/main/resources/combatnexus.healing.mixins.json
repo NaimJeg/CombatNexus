@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.naimjeg.combatnexus.combat.healing.platform.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LivingEntityHealingMixin",
+    "FoodDataHealingSourceMixin",
+    "ServerPlayerHealingSourceMixin",
+    "AllayHealingSourceMixin",
+    "HappyGhastHealingSourceMixin",
+    "WitherBossHealingSourceMixin",
+    "WitherSkullHealingSourceMixin",
+    "TamableAnimalHealingSourceMixin",
+    "CamelHealingSourceMixin",
+    "LlamaHealingSourceMixin",
+    "AbstractHorseHealingSourceMixin",
+    "IronGolemHealingSourceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

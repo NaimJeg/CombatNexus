@@ -1,0 +1,12 @@
+{
+  "priority": 0,
+  "duration_ticks": 100000,
+  "components": [
+    {
+      "type": "combatnexus:periodic_healing",
+      "amount": 1,
+      "interval_ticks": 100000,
+      "first_delay_ticks": 50000
+    }
+  ]
+}

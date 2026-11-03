@@ -1,0 +1,14 @@
+{
+  "priority": 0,
+  "phase": "CONTRIBUTIONS",
+  "reasons": [
+    "EFFECT"
+  ],
+  "sources": [
+    "combatnexus:example_healing"
+  ],
+  "minimum_health_ratio": 0,
+  "maximum_health_ratio": 0.5,
+  "additive": 1,
+  "multiplier": 1
+}

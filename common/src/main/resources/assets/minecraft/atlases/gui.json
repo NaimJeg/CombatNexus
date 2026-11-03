@@ -1,0 +1,79 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/fire_resistance",
+      "sprite": "combatnexus:mob_effect/burning"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/darkness",
+      "sprite": "combatnexus:mob_effect/suffocation"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/weakness",
+      "sprite": "combatnexus:mob_effect/cramming"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/water_breathing",
+      "sprite": "combatnexus:mob_effect/drowning"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/slowness",
+      "sprite": "combatnexus:mob_effect/freezing"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/hunger",
+      "sprite": "combatnexus:mob_effect/starvation"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/fire_resistance",
+      "sprite": "combatnexus:mob_effect/fire_contact"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/fire_resistance",
+      "sprite": "combatnexus:mob_effect/lava_contact"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/fire_resistance",
+      "sprite": "combatnexus:mob_effect/campfire_contact"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/fire_resistance",
+      "sprite": "combatnexus:mob_effect/hot_floor_contact"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/poison",
+      "sprite": "combatnexus:mob_effect/cactus_contact"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/poison",
+      "sprite": "combatnexus:mob_effect/berry_contact"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/hunger",
+      "sprite": "combatnexus:mob_effect/drying"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/water_breathing",
+      "sprite": "combatnexus:mob_effect/water_sensitive"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:mob_effect/darkness",
+      "sprite": "combatnexus:mob_effect/world_border"
+    }
+  ]
+}

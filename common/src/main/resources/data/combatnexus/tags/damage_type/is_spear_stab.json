@@ -2,10 +2,6 @@
   "replace": false,
   "values": [
     {
-      "id": "minecraft:spear",
-      "required": false
-    },
-    {
       "id": "combatnexus:spear_stab",
       "required": false
     }

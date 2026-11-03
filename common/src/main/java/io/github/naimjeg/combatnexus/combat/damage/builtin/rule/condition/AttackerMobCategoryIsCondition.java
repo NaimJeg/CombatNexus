@@ -1,0 +1,33 @@
+package io.github.naimjeg.combatnexus.combat.damage.builtin.rule.condition;
+
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
+import io.github.naimjeg.combatnexus.combat.damage.api.context.DamageContextView;
+import io.github.naimjeg.combatnexus.combat.damage.api.rule.DamageRuleCodecs;
+import io.github.naimjeg.combatnexus.combat.damage.api.rule.DamageRuleCondition;
+import io.github.naimjeg.combatnexus.combat.damage.api.rule.DamageModuleConditionIds;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.entity.MobCategory;
+
+public record AttackerMobCategoryIsCondition(
+        MobCategory category
+) implements DamageRuleCondition {
+
+    public static final MapCodec<AttackerMobCategoryIsCondition> CODEC =
+            RecordCodecBuilder.mapCodec(instance -> instance.group(
+                    DamageRuleCodecs.MOB_CATEGORY
+                            .fieldOf("category")
+                            .forGetter(AttackerMobCategoryIsCondition::category)
+            ).apply(instance, AttackerMobCategoryIsCondition::new));
+
+    @Override
+    public Identifier type() {
+        return DamageModuleConditionIds.ATTACKER_MOB_CATEGORY_IS;
+    }
+
+    @Override
+    public boolean test(DamageContextView ctx) {
+        return ctx.logicalAttacker() != null
+                && ctx.logicalAttacker().getType().getCategory() == category;
+    }
+}

@@ -1,0 +1,27 @@
+package io.github.naimjeg.combatnexus.combat.damage.platform.registry;
+
+import io.github.naimjeg.combatnexus.combat.damage.platform.bootstrap.DamageModule;
+import net.neoforged.neoforge.attachment.AttachmentType;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.NeoForgeRegistries;
+
+public class ModAttachments {
+    public static final DeferredRegister<AttachmentType<?>> ATTACHMENTS =
+            DeferredRegister.create(
+                    NeoForgeRegistries.ATTACHMENT_TYPES,
+                    DamageModule.MODID
+            );
+
+    public static final DeferredHolder<
+            AttachmentType<?>,
+            AttachmentType<Boolean>
+            > PENDING_JUMP_CRIT =
+            ATTACHMENTS.register(
+                    "pending_jump_crit",
+                    () -> AttachmentType
+                            .builder(() -> false)
+                            .build()
+            );
+
+}

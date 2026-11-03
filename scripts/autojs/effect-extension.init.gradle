@@ -1,0 +1,15 @@
+allprojects {
+    afterEvaluate {
+        if (projectDir.name == 'neoforge-26.1.2') {
+            sourceSets {
+                effectProbe {
+                    java.srcDir '../../scripts/autojs/effect-extension/java'
+                    resources.srcDir '../../scripts/autojs/effect-extension/resources'
+                    compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+                    runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+                }
+            }
+            neoForge.mods.create('combatnexus_effect_probe') { sourceSet(sourceSets.effectProbe) }
+        }
+    }
+}

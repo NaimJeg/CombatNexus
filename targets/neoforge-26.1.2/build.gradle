@@ -30,10 +30,6 @@ sourceSets {
     main {
         java.srcDir "$buildDir/generated/common-main"
     }
-    test {
-        java.srcDir '../../common/src/test/java'
-        resources.srcDir '../../common/src/test/resources'
-    }
 }
 
 tasks.register('prepareCommonSources', Sync) {
@@ -66,14 +62,6 @@ neoForge {
             programArgument '--nogui'
         }
 
-        gameTestServer {
-            type = 'gameTestServer'
-            systemProperty 'neoforge.enabledGameTestNamespaces', mod_id
-            systemProperty 'combatnexus.gametest.runtime', 'true'
-            systemProperty 'mixin.debug.countInjections', 'true'
-            programArguments.addAll('--report', layout.buildDirectory.file('gametest-results.xml').get().asFile.absolutePath)
-        }
-
         data {
             clientData()
             programArguments.addAll('--mod', mod_id, '--all',
@@ -90,14 +78,40 @@ neoForge {
 }
 
 repositories {
+    maven {
+        url = 'https://maven.sighs.cc/repository/maven-public/'
+        content { includeGroup 'com.sighs.autojs' }
+    }
+    maven {
+        url = 'https://cursemaven.com'
+        content { includeGroup 'curse.maven' }
+    }
     mavenCentral()
     mavenLocal()
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.12.2')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
-    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    jarJar project(':combatnexus_compat')
+    runtimeOnly project(':combatnexus_compat')
+    // Debug tooling only; not bundled or published as a CombatNexus dependency.
+    runtimeOnly 'com.sighs.autojs:AutoJS-neoforge-26.1:1.0.1'
+    // AutoJS declares Rhino in mod metadata, but omits it from its POM.
+    runtimeOnly 'curse.maven:rhino-416294:8463898'
+    // NeoForge development mods; pinned files and official sources: docs/DEVELOPMENT.md.
+    runtimeOnly 'curse.maven:spark-361579:8918574' // 1.10.187
+    runtimeOnly 'curse.maven:jei-238222:9384706' // 29.53.0.115 (includes MezzConfig)
+    runtimeOnly 'curse.maven:just-enough-characters-250702:9163773' // 4.6.9
+    // Compatibility testing: Apotheosis and its required mod dependencies.
+    if (providers.gradleProperty('verificationCompatibility').map { it.toBoolean() }.getOrElse(false)) {
+        runtimeOnly 'curse.maven:apotheosis-313970:9054740' // 9.1.0
+    }
+    if (providers.gradleProperty('verificationCompatibility').map { it.toBoolean() }.getOrElse(false)
+            || providers.gradleProperty('verificationAttributesOnly').map { it.toBoolean() }.getOrElse(false)) {
+        runtimeOnly 'curse.maven:placebo-283644:8502256' // 10.0.2
+        runtimeOnly 'curse.maven:apothic-attributes-898963:9076588' // 3.1.0
+    }
+
+    implementation "curse.maven:jade-324717:9156414"
 }
 
 tasks.named('processResources', ProcessResources).configure {
@@ -123,11 +137,4 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
 
-tasks.named('test', Test).configure {
-    useJUnitPlatform()
-}
-
 apply from: file('../../gradle/target-conventions/publish.gradle')
-
-ext.baselineRoot = file('../..')
-apply from: file('../../gradle/target-conventions/damage-tests.gradle')

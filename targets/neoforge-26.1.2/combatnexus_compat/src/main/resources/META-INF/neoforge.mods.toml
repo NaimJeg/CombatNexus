@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+[[mods]]
+modId = "combatnexus_compat"
+version = "${version}"
+displayName = "CombatNexus Compat"
+description = "Optional native integration for CombatNexus."
+[[mixins]]
+config = "combatnexus_compat.mixins.json"
+[[dependencies.combatnexus_compat]]
+modId = "combatnexus"
+type = "required"
+versionRange = "[${version}]"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.combatnexus_compat]]
+modId = "apotheosis"
+type = "optional"
+versionRange = "[9.1.0]"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.combatnexus_compat]]
+modId = "apothic_attributes"
+type = "optional"
+versionRange = "[3.1.0]"
+ordering = "AFTER"
+side = "BOTH"

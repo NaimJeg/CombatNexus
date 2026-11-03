@@ -1,0 +1,14 @@
+{
+  "vanilla_reductions": {
+    "mode": "FULL_REPLACEMENT",
+    "suppress_armor": true,
+    "suppress_enchantments": true,
+    "suppress_mob_effects": true,
+    "suppress_innate_resistance": true
+  },
+  "limits": {
+    "max_recursion_depth": 5,
+    "max_derived_requests_per_root": 64,
+    "max_managed_requests_per_server_tick": 2048
+  }
+}

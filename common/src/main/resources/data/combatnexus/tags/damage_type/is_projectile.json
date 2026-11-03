@@ -25,6 +25,7 @@
     {
       "id": "minecraft:thrown",
       "required": false
-    }
+    },
+    "minecraft:spit"
   ]
 }

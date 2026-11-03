@@ -17,6 +17,7 @@
     {
       "id": "minecraft:spear",
       "required": false
-    }
+    },
+    "minecraft:sting"
   ]
 }

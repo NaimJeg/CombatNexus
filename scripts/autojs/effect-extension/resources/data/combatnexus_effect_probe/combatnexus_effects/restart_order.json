@@ -1,0 +1,17 @@
+{
+  "level": 0,
+  "lifetime": {
+    "kind": "TIMED",
+    "ticks": 100000
+  },
+  "stacking": "combatnexus:replace",
+  "category": "BENEFICIAL",
+  "dispellable": true,
+  "attributes": [],
+  "behaviors": [
+    "combatnexus_effect_probe:restart_healing",
+    "combatnexus:last_stand"
+  ],
+  "priority": 0,
+  "restrictions": []
+}

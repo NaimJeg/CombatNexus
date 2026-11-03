@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.naimjeg.combatnexus.combat.control.platform",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LivingControlMixin",
+    "EntityControlMixin",
+    "PlayerControlMixin",
+    "MobControlMixin",
+    "ServerControlMixin",
+    "SpellControlMixin",
+    "WorldLifecycleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ClientInputControlMixin"
+  ]
+}

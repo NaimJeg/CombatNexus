@@ -30,16 +30,16 @@ sourceSets {
     main {
         java.srcDir "$buildDir/generated/common-main"
     }
-    test {
-        java.srcDir '../../common/src/test/java'
-        resources.srcDir '../../common/src/test/resources'
-    }
 }
 
 tasks.register('prepareCommonSources', Sync) {
     from('../../common/src/main/java') {
         // DamageModule requires the NeoForge 26.1.2 adapters; port tracked in docs/DEVELOPMENT.md.
-        exclude 'io/github/naimjeg/combatnexus/damage/**'
+        exclude 'io/github/naimjeg/combatnexus/combat/**'
+        exclude 'io/github/naimjeg/combatnexus/attribute/**'
+        exclude 'io/github/naimjeg/combatnexus/formula/**'
+        exclude 'io/github/naimjeg/combatnexus/effect/**'
+        exclude 'io/github/naimjeg/combatnexus/presentation/**'
         // This target's version differences are registered here: exclude one
         // path per common file that this target replaces with its own
         // implementation, for example
@@ -77,14 +77,37 @@ neoForge {
 }
 
 repositories {
+    maven {
+        url = 'https://maven.sighs.cc/repository/maven-public/'
+        content { includeGroup 'com.sighs.autojs' }
+    }
+    maven {
+        url = 'https://cursemaven.com'
+        content { includeGroup 'curse.maven' }
+    }
     mavenCentral()
     mavenLocal()
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.2')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
-    testImplementation 'com.google.code.gson:gson:2.10.1'
+    // Debug tooling only; not bundled or published as a CombatNexus dependency.
+    runtimeOnly 'com.sighs.autojs:AutoJS-neoforge-1.21.1:1.0.1'
+    // AutoJS declares Rhino in mod metadata, but omits it from its POM.
+    runtimeOnly 'curse.maven:rhino-416294:8463898'
+    // NeoForge development mods; pinned files and official sources: docs/DEVELOPMENT.md.
+    runtimeOnly 'curse.maven:spark-361579:6225208' // 1.10.124
+    runtimeOnly 'curse.maven:jei-238222:8792638' // 19.51.0.418
+    runtimeOnly 'curse.maven:just-enough-characters-250702:8117474' // 4.5.24
+    // Compatibility testing: Apotheosis and its required mod dependencies.
+    runtimeOnly 'curse.maven:apotheosis-313970:8993983' // 8.9.0
+    runtimeOnly 'curse.maven:placebo-283644:9153039' // 9.9.4
+    runtimeOnly 'curse.maven:apothic-attributes-898963:9006294' // 2.11.0
+    // Cataclysm and its required mod dependencies (1.21.1 only).
+    runtimeOnly 'curse.maven:lendercataclysm-551586:8931182' // 3.33
+    runtimeOnly 'curse.maven:curios-309927:6529130' // 9.5.1+1.21.1
+    runtimeOnly 'curse.maven:lionfish-api-1001614:8345326' // 3.1
+
+    implementation "curse.maven:jade-324717:8591319"
 }
 
 tasks.named('processResources', ProcessResources).configure {
@@ -108,10 +131,6 @@ tasks.named('processResources', ProcessResources).configure {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
-}
-
-tasks.named('test', Test).configure {
-    useJUnitPlatform()
 }
 
 apply from: file('../../gradle/target-conventions/publish.gradle')

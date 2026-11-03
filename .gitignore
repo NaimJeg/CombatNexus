@@ -1,6 +1,9 @@
 # User-specific stuff
 .idea/
 
+# Generated VS Code Counter reports
+.VSCodeCounter/
+
 *.iml
 *.ipr
 *.iws
@@ -125,6 +128,7 @@ logs/
 /.tmp/
 /.codex_tmp/
 node_modules/
+__pycache__/
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar

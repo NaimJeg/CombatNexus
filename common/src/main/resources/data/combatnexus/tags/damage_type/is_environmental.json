@@ -85,6 +85,9 @@
     {
       "id": "minecraft:outside_border",
       "required": false
-    }
+    },
+    "#neoforge:is_environment",
+    "minecraft:campfire",
+    "minecraft:ender_pearl"
   ]
 }

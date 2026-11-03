@@ -14,6 +14,7 @@ plugins {
 }
 
 rootProject.name = 'CombatNexus-neoforge-26.1.2'
+include ':combatnexus_compat'
 
 // Attach the shared source tree as a composite build so IDEs (IntelliJ) import
 // common/ as a separate, independently-editable module with its own classpath.

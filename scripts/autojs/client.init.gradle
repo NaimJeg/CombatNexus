@@ -1,0 +1,23 @@
+allprojects {
+    afterEvaluate {
+        if (projectDir.name == 'neoforge-26.1.2') {
+            if (providers.gradleProperty('verificationPackaged').map { it.toBoolean() }.getOrElse(false)) {
+                configurations.runtimeOnly.dependencies.removeIf { it instanceof ProjectDependency && it.path == ':combatnexus_compat' }
+                dependencies.add('runtimeOnly', files(tasks.named('jar')))
+                neoForge.runs.client.loadedMods = []
+            }
+            if (!providers.gradleProperty('verificationCompatibility').map { it.toBoolean() }.getOrElse(false)) {
+                configurations.runtimeClasspath {
+                    exclude group: 'curse.maven', module: 'apotheosis-313970'
+                    exclude group: 'curse.maven', module: 'apothic-attributes-898963'
+                    exclude group: 'curse.maven', module: 'placebo-283644'
+                }
+            }
+            neoForge.runs.client {
+                gameDirectory = file('build/settings-client-run')
+                environment 'AUTOJS_PORT', providers.gradleProperty('verificationClientAutojsPort').getOrElse('25591')
+                programArguments.addAll('--username', 'SettingsVerifier')
+            }
+        }
+    }
+}

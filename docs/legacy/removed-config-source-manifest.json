@@ -1,0 +1,65 @@
+[
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/CombatFormulaConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/formula/platform/CombatFormulaConfigSpec.java",
+    "sha256": "6bebcde758a76adecc89b4fe4e45505fea613b1e6b0dd1088002354233bda0f7",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/CombatFormulaConfigSpec.java",
+    "refactor": "2026-11-04 module-owned NeoForge adapter; original SHA-256 is provenance, not current content",
+    "retired_reason": "2026-11-04: replaced NeoForge config specs with common datapack settings and local JSON"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DamageNexusConfig.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/config/DamageModuleConfig.java",
+    "sha256": "9a6b3f15ba5559dacb24323e162451d3d8ed1a4251e44066ff8b70d58af48aaa",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/DamageModuleConfig.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content",
+    "retired_reason": "2026-11-04: replaced NeoForge config specs with common datapack settings and local JSON"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DamageSafetyConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/config/DamageSafetyConfigSpec.java",
+    "sha256": "0f81670f29cee8de48a2ba7954c3934caf276feaada0012bfef50fff73659f5b",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/DamageSafetyConfigSpec.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content",
+    "retired_reason": "2026-11-04: replaced NeoForge config specs with common datapack settings and local JSON"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DeveloperConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/config/DeveloperConfigSpec.java",
+    "sha256": "161d598ff045162f18b0c4fbb05cc8a0dffc6a5895b2ca83243f8d437dd867a0",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/DeveloperConfigSpec.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content",
+    "retired_reason": "2026-11-04: replaced NeoForge config specs with common datapack settings and local JSON"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/DiagnosticsConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/config/DiagnosticsConfigSpec.java",
+    "sha256": "b5bb90ae79bd8ff560ecb9966966f1f6788685c11a600aa51913fb80b882fe63",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/DiagnosticsConfigSpec.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content",
+    "retired_reason": "2026-11-04: replaced NeoForge config specs with common datapack settings and local JSON"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/TooltipConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/config/TooltipConfigSpec.java",
+    "sha256": "7ff1ac25f1c3400537793918b9aab2eb0fc80cd1470d9bae4b8d8fed5a5123c3",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/TooltipConfigSpec.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content",
+    "retired_reason": "2026-11-04: replaced NeoForge config specs with common datapack settings and local JSON"
+  },
+  {
+    "source": "src/main/java/io/github/naimjeg/damagenexus/config/VanillaCompatibilityConfigSpec.java",
+    "destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/combat/damage/config/VanillaCompatibilityConfigSpec.java",
+    "sha256": "17be8fb26ebb079861bc90e7d6acf54dafab311b45877dc3fbb8b747bdb2df7d",
+    "boundary": "NeoForge API / 26.1.2 Mixin",
+    "previous_destination": "targets/neoforge-26.1.2/src/main/java/io/github/naimjeg/combatnexus/damage/config/VanillaCompatibilityConfigSpec.java",
+    "refactor": "2026-11-03 scaffold; original SHA-256 is provenance, not current content",
+    "retired_reason": "2026-11-04: replaced NeoForge config specs with common datapack settings and local JSON"
+  }
+]

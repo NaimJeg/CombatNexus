@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.naimjeg.combatnexus.combat.health.platform.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LivingEntityHealthAccessMixin",
+    "LivingEntityAbsorptionMixin",
+    "ProjectileLaunchMixin",
+    "ArrowAccessMixin",
+    "LivingEntityCooldownMixin",
+    "LivingEntityMomentsMixin",
+    "DragonCrystalHealingMixin",
+    "DragonDamageMixin",
+    "LivingEntityRuntimeStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

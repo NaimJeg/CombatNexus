@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.naimjeg.combatnexus.compat.mixin",
+  "plugin": "io.github.naimjeg.combatnexus.compat.CompatMixinPlugin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": ["apotheosis.ExecutingAffixMixin", "apotheosis.MageSlayerBonusMixin", "apotheosis.BloodyArrowBonusMixin", "attributes.AttributeEventsMixin"],
+  "injectors": {"defaultRequire": 1}
+}

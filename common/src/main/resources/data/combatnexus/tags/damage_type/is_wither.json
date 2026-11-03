@@ -8,6 +8,7 @@
     {
       "id": "minecraft:wither_skull",
       "required": false
-    }
+    },
+    "#neoforge:is_wither"
   ]
 }
